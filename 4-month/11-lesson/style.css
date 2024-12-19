@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ultimate {
+
+    width: 1263px;
+    height: 2000px;
+
+    margin: 0 auto;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+.navtabs {
+    width: 750px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 120px;
+    margin: 0px -130px -0px 270px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.navtab {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navtab:hover {
+    color: #007BFF;
+}
+
+.navtab.active {
+    color: #007BFF;
+    font-weight: 600;
+}
+
+.underline {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background: #007BFF;
+    transition: left 0.3s ease, width 0.3s ease;
+}
+
+.content {
+    font-family: 'Roboto', sans-serif;
+    display: none;
+    padding: 100px 200px 20px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.content_active {
+    width: 500px;
+    margin: 150px 440px;
+}
+
+.content_active h1 {
+    font-family: 'Roboto', sans-serif;
+    margin: 60px 0px;
+
+}
+
+.content_active p {
+    font-family: 'Roboto', sans-serif;
+    margin: -47px 100px;
+
+}
+
+a {
+    position: absolute;
+    margin: -350px 40px -320px 1153px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #005bb5;
+    /* Yashil rang */
+    color: white;
+    /* Matn rangi */
+    padding: 10px 20px;
+    /* Ichki bo'sh joy */
+    border: none;
+    /* Chegarani o'chirish */
+    border-radius: 5px;
+    /* Burchaklarni yumshatish */
+    font-size: 16px;
+    /* Matn kattaligi */
+    cursor: pointer;
+    /* Hoverda ko'rsatkichni o'zgartirish */
+    transition: background-color 0.3s;
+    /* Hover o‘tishi */
+    list-style: none;
+    text-decoration: none;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Hover effekti */
+a:hover {
+    transform: translateY(-2px);
+    background-color: blueviolet;
+    /* Hover rangi */
+}
+
+.logo {
+    width: 105px;
+    height: 70px;
+    background-image: url(img/2.png);
+    background-repeat: ;
+    background-size: cover;
+    z-index: 23;
+    position: absolute;
+    margin: -368px 30px -355px 30px;
+
+}
+
+.biur {
+    font-family: 'Roboto', sans-serif;
+    color: white
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --oxford-blue: hsl(217, 54%, 11%);
+    --light-oxford-blue: hsl(216, 50%, 16%);
+    --indigo-dye: hsl(215, 32%, 27%);
+    --blue-yonder: hsl(216, 30%, 55%);
+    --aqua: hsl(178, 100%, 50%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Outfit", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    background: var(--oxford-blue);
+    min-height: 100vh;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+
+    background: var(--light-oxford-blue);
+    max-width: 350px;
+    padding: 24px;
+    border-radius: 15px;
+    box-shadow: 8px 20px 25px 15px rgba(0, 0, 0, .05),
+        0px 40px 30px 15px rgba(0, 0, 0, .1);
+}
+
+.card-product-img {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card-product-img::after {
+    --aqua: hsla(178, 100%, 50%, .5);
+
+    content: url('https://i.postimg.cc/xdhFbYCJ/icon-view.png');
+    background: var(--aqua);
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .25s ease;
+}
+
+.card-product-img:hover::after {
+    opacity: 1;
+}
+
+.card-product-img img {
+    width: 100%;
+    display: block;
+}
+
+.card-body {
+    padding: 23px 0;
+    border-bottom: 1px solid var(--indigo-dye);
+    margin-bottom: 15px;
+}
+
+.card-title {
+    color: var(--white);
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    transition: .6s;
+}
+
+.card-title:hover {
+    color: var(--aqua);
+}
+
+.card-text {
+    color: var(--blue-yonder);
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 23px;
+}
+
+.card-body .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-price,
+.card-countdown {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.card-price {
+    color: var(--aqua);
+}
+
+.card-countdown {
+    color: var(--blue-yonder);
+}
+
+.card-icon {
+    margin-right: 6px;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card-author-img {
+    width: 34px;
+    height: 34px;
+    border: 2px solid var(--white);
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.bir {
+    margin: 30px -120px 0px -50px;
+    border: none;
+    background-color: none;
+
+}
+
+
+.ik {
+    margin-left: -4px;
+    margin-top: -18px;
+}
+
+
+.mainbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}

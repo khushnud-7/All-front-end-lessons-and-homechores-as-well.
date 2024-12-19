@@ -1,0 +1,2094 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.ultimate {
+
+
+    width: 100%;
+    height: 6009px;
+    /* background: rgb(255, 255, 255); */
+    margin: 0 auto;
+
+}
+
+.main {
+    width: 100%;
+    height: 985px;
+
+
+    background-image: url(image1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+.nav_left img {
+    /* Group 19 1 */
+    position: static;
+    width: 84px;
+    height: 44px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 142px;
+    opacity: 99999999920294809245809428095840957247508947508947097027%;
+}
+
+
+.nav_center ul {
+    list-style: none;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    left: 350px;
+    top: 20px;
+
+
+}
+
+.nav_center ul a {
+    color: rgb(253 253 253);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+
+
+}
+
+.nav_right {
+    /* button */
+    position: absolute;
+    width: 107px;
+    height: 24px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    left: 1000px;
+    top: 10px;
+    padding: 12px 24px 12px 24px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 56px;
+    border-radius: 4px;
+
+    background: rgb(26, 62, 62);
+}
+
+.nav_right button {
+    /* Консультация (button) */
+    position: static;
+    width: 109px;
+    height: 20px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 12px 24px 12px 24px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: rgb(253, 253, 253);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 1.2%;
+    text-align: left;
+    background: none;
+    border: none;
+}
+
+.maintext p {
+    /* Насладись прогулкой в горах с командой единомышленников */
+    position: absolute;
+    width: 980px;
+    height: 150px;
+    left: 150px;
+    top: 523px;
+    color: rgb(253, 253, 253);
+    font-family: "NEXT ART", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2%;
+    text-align: left;
+    opacity: 09382479387;
+}
+
+
+.mainbox1 {
+    /* Rectangle 16 */
+    position: absolute;
+    width: 1030px;
+    height: 161px;
+    left: 150px;
+    top: 742px;
+    border-radius: 10px;
+
+    backdrop-filter: blur(6px);
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+
+
+
+
+}
+
+.mainbox1 div {
+    /* input field */
+    position: static;
+    width: 230px;
+    height: 52px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+
+
+
+    padding: 0px 16px 0px 16px;
+
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 55px 10px;
+    box-sizing: border-box;
+    /* wl/primary/primary300 */
+    border: 1px solid rgb(225, 227, 228);
+    border-radius: 8px;
+
+}
+
+.mainbox1 div select {
+    background: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: white;
+    border: none;
+}
+
+
+.mainbox2 {
+    /* button */
+    position: absolute;
+    width: 163px;
+    height: 52px;
+
+    border-radius: 4px;
+
+    background: rgb(253, 253, 253);
+}
+
+.mainbox1 input {
+    background: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: white;
+    border: none;
+}
+
+.mainbox1 button {
+    /* button */
+    position: static;
+    width: 250px;
+    height: 52px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 16px 36px 16px 36px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 55px 10px;
+    border-radius: 4px;
+
+    background: rgb(253, 253, 253);
+    border: none;
+
+}
+
+.mainbelong {
+    /* Frame 5 */
+    position: absolute;
+    width: 1030px;
+    height: 526px;
+    left: 0;
+    top: 0;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 120;
+    padding: 0px;
+
+    left: 150px;
+    top: 1042px;
+
+}
+
+
+.mainbelongimg {
+    width: 50%;
+    height: 100%;
+
+
+}
+
+.mainbelongtext {
+    width: 50%;
+    height: 100%;
+
+    position: absolute;
+    left: 515px;
+
+    top: 0;
+}
+
+.mainbelongimg1 img {
+    /* Rectangle 5 */
+    position: absolute;
+    width: 290px;
+    height: 340px;
+    left: 0;
+    top: 0;
+    border-radius: 24px;
+    opacity: 27868743264726349827;
+    background: url(), rgb(217, 217, 217);
+}
+
+.mainbelongimg2 img {
+    /* Rectangle 5 */
+    position: absolute;
+    width: 300px;
+    height: 340px;
+    left: 130px;
+    top: 130px;
+    border-radius: 24px;
+    opacity: 4854387587687469564986598245694;
+    background: url(), rgb(217, 217, 217);
+}
+
+.mainbelongimg3 img {
+    /* Rectangle 6 */
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 255px;
+    top: 277px;
+    border-radius: 100px;
+    opacity: 3234894792846398569248;
+
+    background: rgba(253, 253, 253, 0.6);
+}
+
+.mainbelongtext h6 {
+    /* о нашем походе */
+    position: static;
+    width: 182px;
+    height: 20px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 64px 0px;
+    color: rgb(242, 190, 34);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainbelongtext h5 {
+    /* Исследуйте все горные массивы мира вместе с нами */
+    position: static;
+    width: 540px;
+    height: 76px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8;
+    padding: 0px 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: -55px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainbelongtext p {
+    /* Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе. */
+    position: static;
+    width: 530px;
+    height: 162px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 90px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainbelongtext button {
+    /* button */
+    position: static;
+    width: 200px;
+    height: 52px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 16px 36px 16px 36px;
+    color: white;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: -60px 0px;
+    border-radius: 4px;
+    border: none;
+
+    background: rgb(26, 62, 62);
+}
+
+.ultimatebottom {
+    width: 100%;
+    height: 600px;
+    background: rgb(243, 245, 244);
+    position: absolute;
+    top: 1681px;
+}
+
+
+.mainbottoom {
+    /* Frame 5 */
+    position: absolute;
+    width: 1030px;
+    height: 600px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 120;
+    padding: 0px;
+
+
+
+    left: 150px;
+    top: 0px;
+
+}
+
+.mainboxx p {
+    /* Supporting Text */
+    position: static;
+    width: 254px;
+    height: 21px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 0px 8px 0px 8px;
+    position: absolute;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 790px 157px;
+    z-index: 248;
+    color: rgb(253, 253, 253);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.mainboxxx p {
+    /* Supporting Text */
+    position: static;
+    width: 254px;
+    height: 21px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 0px 8px 0px 8px;
+    position: absolute;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 790px 414px;
+    z-index: 248;
+    color: rgb(253, 253, 253);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.mainboxxxx p {
+    /* Supporting Text */
+    position: static;
+    width: 254px;
+    height: 21px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 0px 8px 0px 8px;
+    position: absolute;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 790px 669px;
+    z-index: 248;
+    color: rgb(253, 253, 253);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.mainbottomtext {
+    width: 50%;
+    height: 100%;
+
+}
+
+.mainbottomimg {
+    width: 50%;
+    height: 100%;
+
+    position: absolute;
+    left: 515px;
+    top: 0px;
+}
+
+.mainbottomtext h6 {
+    /* наше предложение */
+    position: static;
+    width: 222px;
+    height: 20px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+    color: rgb(242, 190, 34);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainbottomtext h5 {
+    /* Лучшие программы для тебя */
+    position: static;
+    width: 580px;
+    height: 38px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainbottomtext p {
+    /* Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа. */
+    position: static;
+    width: 550px;
+    height: 81px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 40px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainbottomtext button {
+    /* button */
+    position: static;
+    width: 236px;
+    height: 52px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 16px 16px 16px 6px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    margin: 353px 0px;
+    border-radius: 4px;
+
+    background: rgb(26, 62, 62);
+    border: none;
+    color: white;
+}
+
+.mainbottomtext1 img {
+    /* Rectangle 12 */
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    top: 237px;
+    border-radius: 4px;
+    opacity: 298392859824572498;
+    background: rgb(229, 238, 235);
+}
+
+.mainbottomtext2 img {
+    /* Rectangle 12 */
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    top: 337px;
+    border-radius: 4px;
+    opacity: 298392859824572498;
+    background: rgb(229, 238, 235);
+}
+
+.mainbottomtext3 img {
+    /* Rectangle 12 */
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    top: 437px;
+    border-radius: 4px;
+    opacity: 298392859824572498;
+    background: rgb(229, 238, 235);
+}
+
+.mainbottomtext1 h6 {
+    /* Опытный гид */
+    position: static;
+    width: 121px;
+    height: 20px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4;
+    padding: 0px;
+
+    position: absolute;
+    top: 220px;
+    left: 70px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 4px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1.2%;
+    text-align: left;
+}
+
+.mainbottomtext1 p {
+    /* Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации. */
+    position: static;
+    width: 484px;
+    height: 40px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4;
+    padding: 0px;
+    position: absolute;
+    top: 256px;
+    left: 70px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 4px 0px;
+    color: rgb(0, 0, 0);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainbottomtext2 h6 {
+    /* Опытный гид */
+    position: static;
+    width: 191px;
+    height: 20px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4;
+    padding: 0px;
+
+    position: absolute;
+    top: 320px;
+    left: 70px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 4px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1.2%;
+    text-align: left;
+}
+
+.mainbottomtext2 p {
+    /* Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации. */
+    position: static;
+    width: 484px;
+    height: 40px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4;
+    padding: 0px;
+    position: absolute;
+    top: 356px;
+    left: 70px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 4px 0px;
+    color: rgb(0, 0, 0);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainbottomtext3 h6 {
+    /* Опытный гид */
+    position: static;
+    width: 191px;
+    height: 20px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4;
+    padding: 0px;
+
+    position: absolute;
+    top: 420px;
+    left: 70px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 4px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1.2%;
+    text-align: left;
+}
+
+.mainbottomtext3 p {
+    /* Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации. */
+    position: static;
+    width: 484px;
+    height: 40px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4;
+    padding: 0px;
+    position: absolute;
+    top: 456px;
+    left: 70px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 4px 0px;
+    color: rgb(0, 0, 0);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainbottomimg1 img {
+    /* Rectangle 8 */
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 25px;
+    top: 31px;
+    border-radius: 0px 50px 0px 50px;
+    opacity: 329842938742043;
+    background: url(), rgb(217, 217, 217);
+}
+
+.mainbottomimg2 img {
+    /* Rectangle 9 */
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 265px;
+    top: 31px;
+    border-radius: 50px 0px 50px 0px;
+    opacity: 32984739284230;
+    background: url(), rgb(217, 217, 217);
+}
+
+.mainbottomimg3 img {
+    /* Rectangle 9 */
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 25px;
+    top: 271px;
+    border-radius: 50px 0px 50px 0px;
+    opacity: 9328739290423;
+    background: url(), rgb(217, 217, 217);
+}
+
+.mainbottomimg4 img {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 264px;
+    top: 271px;
+
+    opacity: 329842938742043;
+    border-radius: 0px 50px 0px 50px;
+
+    background: url(), rgb(217, 217, 217);
+}
+
+
+.mainopposite {
+    /* Frame 5 */
+    position: absolute;
+    width: 1030px;
+    height: 670px;
+
+
+
+
+    left: 150px;
+    top: 2400px;
+
+}
+
+.mainoppositetext h6 {
+    /* по версии отдыхающих */
+    position: static;
+    width: 267px;
+    height: 20px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8;
+    padding: 0px 385px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+    color: rgb(242, 190, 34);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainoppositetext p {
+    /* Популярные направления */
+    position: static;
+    width: 580px;
+    height: 38px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8;
+    padding: 0px 240px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.mainoppositeimg {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: absolute;
+    left: 50px;
+    top: 140px;
+
+}
+
+.mainoppositeimg img {
+    width: 300px;
+    height: 400px;
+    left: 0;
+    top: 0;
+    border-radius: 32px;
+    background: url(), rgb(217, 217, 217);
+    opacity: 328632784628364723097;
+}
+
+.mainoppositetext button {
+    /* button */
+    position: absolute;
+    width: 244px;
+    height: 52px;
+    left: 405px;
+    top: 618px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 16px 36px 16px 36px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    background: rgb(26, 62, 62);
+}
+
+.ultimateinfrontof {
+    /* Rectangle 7 */
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+    left: 0;
+    top: 3200px;
+    background: rgb(243, 245, 244);
+}
+
+.maininfrontof {
+    /* Frame 5 */
+    position: absolute;
+    width: 1030px;
+    height: 714px;
+
+    left: 150px;
+    top: 80px;
+
+}
+
+.maininfrontoftext h6 {
+    /* делимся впечатлениями */
+    position: static;
+    width: 276px;
+    height: 20px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8;
+    padding: 0px 395px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+    color: rgb(242, 190, 34);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.maininfrontoftext p {
+    /* Блог о путешествиях */
+    position: static;
+    width: 580px;
+    height: 38px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8;
+    padding: 0px 250px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.maininfrontofbox1 {
+    /* blog_posts */
+    position: absolute;
+    width: 465px;
+    height: 241px;
+    /* Auto layout */
+    top: 140px;
+    gap: 24;
+    padding: 16px;
+    left: 10px;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(24, 18, 30, 0.12);
+    background: rgb(253, 253, 253);
+}
+
+.maininfrontofbox2 {
+    /* blog_posts */
+    position: absolute;
+    width: 465px;
+    height: 241px;
+    /* Auto layout */
+    top: 440px;
+    gap: 24;
+    padding: 16px;
+    left: 10px;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(24, 18, 30, 0.12);
+    background: rgb(253, 253, 253);
+}
+
+.maininfrontofbox3 {
+    /* blog_posts */
+    position: absolute;
+    width: 465px;
+    height: 241px;
+    /* Auto layout */
+    top: 140px;
+    gap: 24;
+    padding: 16px;
+    left: 522px;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(24, 18, 30, 0.12);
+    background: rgb(253, 253, 253);
+}
+
+.maininfrontofbox4 {
+    /* blog_posts */
+    position: absolute;
+    width: 465px;
+    height: 241px;
+    /* Auto layout */
+    top: 440px;
+    gap: 24;
+    padding: 16px;
+    left: 522px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(24, 18, 30, 0.12);
+    background: rgb(253, 253, 253);
+}
+
+.maininfrontofbox1 img {
+    /* Rectangle 19 (blog_posts) */
+    position: static;
+    width: 180px;
+    height: 243px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    border-radius: 6px;
+    margin-left: -6px;
+    opacity: 328479382403297;
+    background: url(), rgb(217, 217, 217);
+}
+
+.maininfrontofbox2 img {
+    /* Rectangle 19 (blog_posts) */
+    position: static;
+    width: 180px;
+    height: 243px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    border-radius: 6px;
+    margin-left: -6px;
+    opacity: 239847320943;
+
+    background: url(), rgb(217, 217, 217);
+}
+
+.maininfrontofbox3 img {
+    /* Rectangle 19 (blog_posts) */
+    position: static;
+    width: 180px;
+    height: 243px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    border-radius: 6px;
+    margin-left: -6px;
+    opacity: 9328742390;
+
+    background: url(), rgb(217, 217, 217);
+}
+
+.maininfrontofbox4 img {
+    /* Rectangle 19 (blog_posts) */
+    position: static;
+    width: 180px;
+    height: 243px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    border-radius: 6px;
+    margin-left: -6px;
+    opacity: 23897403232;
+
+    background: url(), rgb(217, 217, 217);
+}
+
+.maininfrontofbox1 h4 {
+    /* Красивая Италия, какая она в реальности? (blog_posts) */
+    position: absolute;
+    width: 294px;
+    height: 64px;
+    top: 0px;
+    left: 210px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.maininfrontofbox2 h4 {
+    /* Красивая Италия, какая она в реальности? (blog_posts) */
+    position: absolute;
+    width: 294px;
+    height: 64px;
+    top: 0px;
+    left: 210px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.maininfrontofbox3 h4 {
+    /* Красивая Италия, какая она в реальности? (blog_posts) */
+    position: absolute;
+    width: 294px;
+    height: 64px;
+    top: 0px;
+    left: 210px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.maininfrontofbox4 h4 {
+    /* Красивая Италия, какая она в реальности? (blog_posts) */
+    position: absolute;
+    width: 294px;
+    height: 64px;
+    top: 0px;
+    left: 210px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.maininfrontofbox1 p {
+    /* Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации. (blog_posts) */
+    position: absolute;
+    width: 294px;
+    height: 116px;
+    top: 84px;
+    left: 210px;
+
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    margin: 24px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.maininfrontofbox2 p {
+    /* Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации. (blog_posts) */
+    position: absolute;
+    width: 294px;
+    height: 116px;
+    top: 84px;
+    left: 210px;
+
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    margin: 24px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.maininfrontofbox3 p {
+    /* Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации. (blog_posts) */
+    position: absolute;
+    width: 294px;
+    height: 116px;
+    top: 84px;
+    left: 210px;
+
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    margin: 24px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.maininfrontofbox4 p {
+    /* Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации. (blog_posts) */
+    position: absolute;
+    width: 294px;
+    height: 116px;
+    top: 84px;
+    left: 210px;
+
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    margin: 24px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.maininfrontofbox1 h5 {
+    /* 01/04/2023 (blog_posts) */
+    position: absolute;
+    width: 76px;
+    height: 20px;
+    top: 230px;
+    left: 200px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: rgb(242, 190, 34);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.maininfrontofbox2 h5 {
+    /* 01/04/2023 (blog_posts) */
+    position: absolute;
+    width: 76px;
+    height: 20px;
+    top: 230px;
+    left: 200px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: rgb(242, 190, 34);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.maininfrontofbox3 h5 {
+    /* 01/04/2023 (blog_posts) */
+    position: absolute;
+    width: 76px;
+    height: 20px;
+    top: 230px;
+    left: 200px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: rgb(242, 190, 34);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.maininfrontofbox4 h5 {
+    /* 01/04/2023 (blog_posts) */
+    position: absolute;
+    width: 76px;
+    height: 20px;
+    top: 230px;
+    left: 200px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: rgb(242, 190, 34);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.maininfrontofbox1 h6 {
+    /* читать статью (blog_posts) */
+    position: absolute;
+    width: 97px;
+    height: 20px;
+    top: 230px;
+    left: 380px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: rgb(26, 62, 62);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.maininfrontofbox2 h6 {
+    /* читать статью (blog_posts) */
+    position: absolute;
+    width: 97px;
+    height: 20px;
+    top: 230px;
+    left: 380px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: rgb(26, 62, 62);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.maininfrontofbox3 h6 {
+    /* читать статью (blog_posts) */
+    position: absolute;
+    width: 97px;
+    height: 20px;
+    top: 230px;
+    left: 380px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: rgb(26, 62, 62);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.maininfrontofbox4 h6 {
+    /* читать статью (blog_posts) */
+    position: absolute;
+    width: 97px;
+    height: 20px;
+    top: 230px;
+    left: 380px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: rgb(26, 62, 62);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.maininfrontof button {
+    /* button */
+    position: absolute;
+    width: 220px;
+    height: 52px;
+    left: 410px;
+    top: 780px;
+    border: none;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 16px 36px 16px 36px;
+    color: white;
+    border-radius: 4px;
+    background: rgb(26, 62, 62);
+}
+
+.mainback {
+    position: absolute;
+    width: 1030px;
+    height: 740px;
+
+
+    left: 150px;
+    top: 4450px;
+}
+
+.mainback h6 {
+    /* фото-отчет */
+    position: static;
+    width: 129px;
+    height: 20px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8;
+    padding: 0px 450px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+    color: rgb(242, 190, 34);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.mainback p {
+    /* Делимся впечатлениями */
+    position: static;
+    width: 580px;
+    height: 38px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8;
+    padding: 0px 240px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.mainbackimg1 img {
+    /* Rectangle 20 */
+    position: absolute;
+    width: 430px;
+    height: 250px;
+    left: px;
+    top: 109px;
+    border-radius: 6px;
+
+    background: url(), rgb(217, 217, 217);
+}
+
+.mainbackimg2 img {
+    /* Rectangle 21 */
+    position: absolute;
+    width: 280px;
+    height: 250px;
+    left: 450px;
+    top: 109px;
+    border-radius: 6px;
+    background: url(), rgb(217, 217, 217);
+}
+
+.mainbackimg3 img {
+    /* Rectangle 22 */
+    position: absolute;
+    width: 280px;
+    height: 250px;
+    left: 750px;
+    top: 109px;
+    border-radius: 6px;
+
+    background: url(), rgb(217, 217, 217);
+}
+
+.mainbackimg4 img {
+    /* Rectangle 24 */
+    position: absolute;
+    width: 280px;
+    height: 250px;
+
+    top: 375px;
+    border-radius: 6px;
+
+    background: rgba(26, 62, 62, 0.3), url();
+}
+
+.mainbackimg5 img {
+    /* Rectangle 20 */
+    position: absolute;
+    width: 430px;
+    height: 250px;
+    left: 300px;
+    top: 375px;
+    border-radius: 6px;
+
+    background: url(), rgb(217, 217, 217);
+
+}
+
+.mainbackimg6 img {
+    /* Rectangle 25 */
+    position: absolute;
+    width: 280px;
+    height: 250px;
+    left: 750px;
+    top: 375px;
+    border-radius: 6px;
+
+    background: url(), rgb(217, 217, 217);
+}
+
+.mainback button {
+    /* button */
+    position: absolute;
+    width: 178px;
+    height: 52px;
+    left: 430px;
+    top: 672px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 16px 36px 16px 36px;
+    border: none;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 4px;
+    background: rgb(26, 62, 62);
+}
+
+.mainalmost {
+    position: absolute;
+    width: 1030px;
+    height: 200px;
+    border-radius: 6px;
+    z-index: 30;
+
+    /* shadow block */
+    box-shadow: 0px 0px 15px 0px rgba(24, 18, 30, 0.12);
+    background: rgb(253, 253, 253);
+
+
+    left: 150px;
+    top: 5400px;
+
+}
+
+.mainalmost h4 {
+    /* актуально */
+    position: static;
+    width: 87px;
+    height: 20px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8;
+    padding: 20px 80px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+    color: rgb(242, 190, 34);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainalmost h5 {
+    /* Получайте полезные рассылки о путешествиях */
+    position: static;
+    width: 380px;
+    height: 62px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8;
+    padding: 1px 80px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: -14px 0px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainalmost h6 {
+    /* Введите e-mail адрес */
+    position: static;
+    width: 164px;
+    height: 20px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8;
+    padding: 20px 100px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -117px 400px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainalmost input {
+    /* Frame 21 */
+    position: static;
+    width: 220px;
+    height: 44px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10;
+    padding: 0px 16px 0px 16px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 108px 500px;
+    border-radius: 4px;
+    border: none;
+
+    background: rgb(243, 245, 244);
+}
+
+.mainalmost p {
+    /* подписываясь на новости, вы автоматически соглашаетесь с условиями обработки персональных данных и правилами рекламных рассылок */
+    position: absolute;
+    width: 536px;
+    height: 36px;
+    left: 500px;
+    top: 114px;
+    color: rgb(24, 18, 30);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainalmost button {
+    /* button */
+    position: static;
+    width: 220px;
+    height: 44px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 12px 24px 12px 24px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: -152px 770px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+
+    background: rgb(26, 62, 62);
+}
+
+.mainfinal {
+    /* Rectangle 8 */
+    position: absolute;
+    width: 100%;
+    height: 587px;
+    left: 0;
+    top: 5500px;
+    background: rgb(26, 62, 62);
+}
+
+.mainfinalend {
+    /* Rectangle 28 */
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0;
+    top: 543px;
+    background: rgb(24, 18, 30);
+}
+
+.mainfinalend h6 {
+    /* ИП Константинопольский К.К., 2023 */
+    position: static;
+    width: 243px;
+    height: 18px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 45px 160px;
+    color: rgb(255, 255, 255);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainfinalend p {
+    /* Политика обработки персональных данных */
+    position: static;
+    width: 296px;
+    height: 18px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: -64px 884px;
+    color: rgb(255, 255, 255);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.mainfinalimg img {
+    /* контакты */
+    position: absolute;
+    width: 480px;
+    height: 263px;
+    left: 150px;
+    right: 1070px;
+    top: 200px;
+    bottom: -5276px;
+    opacity: 9999329823874093270432740;
+}
+
+.mainfinalimg2 img {
+    /* список услуг */
+    position: absolute;
+    width: 280px;
+    height: 234px;
+    left: 640px;
+    opacity: 392874983274093820984230843;
+    right: 770px;
+    top: 200px;
+    bottom: -5247px;
+}
+
+.mainfinalimg3 img {
+    /* важно для путешествий */
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    left: 960px;
+    opacity: 934923884378264238492934320;
+    right: 370px;
+    top: 200px;
+    bottom: -5213px;
+}

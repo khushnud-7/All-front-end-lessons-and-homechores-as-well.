@@ -1,0 +1,1061 @@
+$slide: "Work Sans", sans-serif;
+
+@mixin slide1 {
+    display: flex;
+    flex-direction: row;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ultimate {
+
+    position: relative;
+    width: 1263px;
+    height: 2961px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    background: rgb(43, 43, 43);
+    margin: 0 auto;
+}
+
+
+.navbar {
+    width: 1163px;
+    height: 100px;
+    position: absolute;
+    left: 3.8%;
+
+
+
+    .nav_left {
+        img {
+            /* nav / logo (Navigation) */
+            position: static;
+            width: 243.41px;
+            height: 32px;
+            /* Auto layout */
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10;
+            padding: 0px;
+            /* Inside Auto Layout */
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 30px 10px;
+        }
+    }
+
+
+    .nav_center {
+        ul {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            gap: 50px;
+            /* Button */
+            position: absolute;
+            height: 22px;
+            list-style: none;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: -54px 550px;
+
+            a {
+                color: rgb(255, 255, 255);
+                font-family: $slide;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 140%;
+                letter-spacing: 0%;
+                text-align: center;
+                text-decoration: none;
+            }
+        }
+    }
+
+
+    .nav_right {
+        a {
+            /* Sign Up (Button) */
+            position: static;
+            width: 82px;
+            height: 50px;
+            /* Auto layout */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 12;
+            padding: 0px 40px 0px 50px;
+            /* Inside Auto Layout */
+            flex: none;
+            order: 3;
+            flex-grow: 0;
+            margin: -70px 981px;
+            border-radius: 20px;
+            list-style: none;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-family: $slide;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 140%;
+            letter-spacing: 0%;
+            text-align: center;
+            /* Call to Action */
+            background: rgb(162, 89, 255);
+
+            i {
+                width: 10px;
+                height: 10px;
+                position: absolute;
+                left: 1015px;
+                top: 46px;
+            }
+        }
+    }
+
+}
+
+
+.mainbottom {
+    /* Headline & Subhead (Headline + Subhead) */
+    position: static;
+    width: 1050px;
+    height: 111px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 180px 8.1%;
+
+
+    h6 {
+        /* Top Creators (Headline + Subhead) */
+        position: static;
+        width: 1050px;
+        height: 56px;
+        /* Auto layout */
+        gap: 10;
+        padding: 0px;
+
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+        margin: 0px 0px;
+        /* H2 - Work Sans */
+        color: rgb(255, 255, 255);
+        font-family: $slide;
+        font-size: 51px;
+        font-weight: 600;
+        line-height: 110%;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: capitalize;
+    }
+
+    p {
+        /* Check out top ranking NFT artists on the NFT Marketplace. (Headline + Subhead) */
+        position: static;
+        width: 1050px;
+        height: 35px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10;
+        padding: 0px;
+
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 10px 0px;
+        color: rgb(255, 255, 255);
+        font-family: $slide;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 160%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+
+.mainpro {
+    /* Frame 267 (Tab Bar) */
+    position: static;
+    width: 1050px;
+    height: 60px;
+    margin: -100px 8.1%;
+    /* Background */
+    background: rgb(43, 43, 43);
+
+    @include slide1();
+
+    .mainpro1 {
+        /* Tab */
+        position: static;
+        width: 262.5px;
+        height: 60px;
+        margin: 0px 0px;
+        box-sizing: border-box;
+        /* Caption & Label Text */
+        border-bottom: 2px solid rgb(133, 133, 132);
+
+
+        p {
+            /* Created (Tab) */
+            position: static;
+            width: 64px;
+            height: 31px;
+            /* Auto layout */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 16;
+            padding: 0px 30px 0px 30px;
+
+
+            /* Inside Auto Layout */
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 13px 60px;
+            /* H5 - Work Sans */
+            color: rgb(255, 255, 255);
+            font-family: $slide;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 140%;
+            letter-spacing: 0%;
+            text-align: center;
+            text-transform: capitalize;
+        }
+    }
+
+
+    .mainpro2 {
+        /* Tab */
+        position: static;
+        width: 262.5px;
+        height: 60px;
+        margin: 0px 0px;
+        box-sizing: border-box;
+        /* Caption & Label Text */
+
+
+
+        p {
+            /* Created (Tab) */
+            position: static;
+            width: 112px;
+            height: 31px;
+            /* Auto layout */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 16;
+            padding: 0px 30px 0px 30px;
+
+
+            /* Inside Auto Layout */
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 14px 40px;
+            /* H5 - Work Sans */
+            color: rgb(133, 133, 132);
+            font-family: $slide;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 140%;
+            letter-spacing: 0%;
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+    }
+
+    .mainpro3 {
+        /* Tab */
+        position: static;
+        width: 262.5px;
+        height: 60px;
+        margin: 0px 0px;
+        box-sizing: border-box;
+        /* Caption & Label Text */
+
+
+
+        p {
+            /* Created (Tab) */
+            position: static;
+
+            height: 31px;
+            /* Auto layout */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 16;
+            padding: 0px 30px 0px 30px;
+            /* Inside Auto Layout */
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 14px 40px;
+            /* H5 - Work Sans */
+            color: rgb(133, 133, 132);
+            font-family: $slide;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 140%;
+            letter-spacing: 0%;
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+    }
+
+    .mainpro4 {
+        /* Tab */
+        position: static;
+        width: 262.5px;
+        height: 60px;
+        margin: 0px 0px;
+        box-sizing: border-box;
+        /* Caption & Label Text */
+
+
+
+        p {
+            /* Created (Tab) */
+            position: static;
+            width: 112px;
+            height: 31px;
+            /* Auto layout */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 16;
+            padding: 0px 30px 0px 30px;
+            /* Inside Auto Layout */
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 14px 40px;
+            /* H5 - Work Sans */
+            color: rgb(133, 133, 132);
+            font-family: $slide;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 140%;
+            letter-spacing: 0%;
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+    }
+}
+
+.mainbor {
+    /* Table Header */
+    position: static;
+    width: 1050px;
+    height: 46px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10;
+    padding: 12px 0px 12px 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 160px 8.1%;
+    /* Background - Secondary */
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 20px;
+
+    h6 {
+        /* # (Table Header) */
+        position: static;
+        width: 30px;
+        height: 22px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20;
+        padding: 0px;
+
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 15px 1050px 0px 100px;
+        /* Base (Body) - Space Mono */
+        color: rgb(133, 133, 132);
+        font-family: Space Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    p {
+        /* Artist (Table Header) */
+        position: static;
+        width: 59px;
+        height: 22px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20;
+        padding: 0px;
+
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: -22px 940px 0px 100px;
+        /* Base (Body) - Space Mono */
+        color: rgb(133, 133, 132);
+        font-family: Space Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    h5 {
+        /* Change (Table Header) */
+        position: static;
+        width: 160px;
+        height: 22px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10;
+        padding: 0px;
+
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: -22px 580px;
+        /* Base (Body) - Space Mono */
+        color: rgb(133, 133, 132);
+        font-family: Space Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    h4 {
+        /* Change (Table Header) */
+        position: static;
+        width: 160px;
+        height: 22px;
+        margin: 2px 170px 0px 680px;
+        /* Base (Body) - Space Mono */
+        color: rgb(133, 133, 132);
+        font-family: Space Mono;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    h3 {
+        /* Base (Body) - Space Mono */
+        color: rgb(133, 133, 132);
+        font-family: Space Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin: -25px 100px 0px 800px;
+    }
+
+}
+
+
+.mainbok {
+    width: 1050px;
+    height: 2206px;
+
+    margin: -120px 8.1%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    div {
+        /* Table Items */
+        position: static;
+        width: 1050px;
+        height: 67.29px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10;
+        padding: 12px 0px 12px 0px;
+
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 0px;
+        border-radius: 20px;
+
+        /* Background - Secondary */
+        background: rgb(59, 59, 59);
+
+    }
+
+    h6 {
+        /* 1 (Table Items) */
+        position: absolute;
+        left: -765px;
+        width: 10px;
+        height: 22px;
+        margin: 22px 900px;
+        /* Base (Body) - Space Mono */
+        color: rgb(133, 133, 132);
+        font-family: Space Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+
+    }
+
+    img {
+        /* Avatar Placeholder (Avatar #1) */
+
+        width: 60px;
+        height: 60px;
+        left: 0;
+        top: 500px;
+
+        margin: 2px 960px 0px 100px;
+    }
+
+    h5 {
+        /* Dish Studio (Artist Card) */
+        position: static;
+        width: 300px;
+        height: 31px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5;
+        padding: 0px;
+
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: -45px 160px;
+        /* H5 - Work Sans */
+        color: rgb(255, 255, 255);
+        font-family: $slide;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: capitalize;
+    }
+
+    h4 {
+        /* +1.41% (Table Items) */
+        position: static;
+        width: 160px;
+        height: 22px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10;
+        padding: 0px;
+
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 20px 580px;
+        /* Base (Body) - Space Mono */
+        color: rgb(0, 172, 79);
+        font-family: Space Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    h3 {
+        /* 602 (Table Items) */
+        position: static;
+        width: 160px;
+        height: 22px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10;
+        padding: 0px;
+
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: -42px 720px;
+        /* Base (Body) - Space Mono */
+        color: rgb(255, 255, 255);
+        font-family: Space Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    h2 {
+        /* 12.4 ETH (Table Items) */
+        position: static;
+        width: 160px;
+        height: 22px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10;
+        padding: 0px;
+
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 10px 0px;
+        /* 12.4 ETH (Table Items) */
+        position: static;
+        width: 160px;
+        height: 22px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10;
+        padding: 0px;
+
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 20px 850px;
+        /* Base (Body) - Space Mono */
+        color: rgb(255, 255, 255);
+        font-family: Space Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+}
+
+.mainfinall {
+    /* Footer */
+    position: static;
+    width: 1263px;
+    height: 334px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 9;
+    flex-grow: 1;
+    margin: 200px 0px;
+    /* Background - Secondary */
+    background: rgb(59, 59, 59);
+    border-top: 1px solid black;
+
+    .mainfinalll {
+        /* Footer Info (Footer) */
+        position: absolute;
+        width: 1050px;
+        height: 221px;
+        left: 8.1%;
+
+        top: 2890px;
+
+        .mainfinal1 {
+            img {
+                position: static;
+                width: 243.41px;
+                height: 32px;
+                /* Auto layout */
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 10;
+                padding: 0px;
+                /* Inside Auto Layout */
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                margin: 30px -3px;
+            }
+
+            h6 {
+                /* NFT marketplace UI created with Anima for Figma. (Footer) */
+                position: static;
+                width: 238px;
+                height: 44px;
+                /* Auto layout */
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 20;
+                padding: 0px;
+
+                /* Inside Auto Layout */
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                margin: 20px 0px;
+                /* Base(Body) - Work Sans */
+                color: rgb(204, 204, 204);
+                font-family: $slide;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 140%;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+
+            p {
+                /* Join our community (Footer) */
+                position: static;
+                width: 238px;
+                height: 18px;
+                /* Auto layout */
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 15;
+                padding: 0px;
+
+                /* Inside Auto Layout */
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                margin: 15px 0px;
+                /* Base(Body) - Work Sans */
+                color: rgb(204, 204, 204);
+                font-family: $slide;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 140%;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+
+            .mainfinal111 {
+                display: flex;
+                flex-direction: co;
+
+                div {
+                    margin: 40px 0px;
+                    display: flex;
+                    gap: 6px;
+
+                }
+            }
+
+
+
+        }
+    }
+
+    .mainfinall2 {
+        /* Divider (Footer) */
+        position: absolute;
+        width: 1050px;
+        height: 0;
+        top: 3100px;
+        margin: 43px 8.1%;
+        /* Caption & Label Text */
+        border: 1px solid rgb(133, 133, 132);
+    }
+}
+
+
+.mainfinall1 {
+
+    position: absolute;
+    top: 3150px;
+
+    p {
+        /* Caption - Work Sans */
+        color: rgb(204, 204, 204);
+        font-family: $slide;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 110%;
+        letter-spacing: 0%;
+        margin: 10px 100px;
+        text-align: left;
+    }
+}
+
+.mainfinal2 {
+    ul {
+        /* Explore (Footer) */
+        position: static;
+        width: 95px;
+        height: 35px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 25;
+        padding: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: -245px 385px;
+        list-style: none;
+
+        a {
+            /* H5 - Space Mono */
+            color: rgb(255, 255, 255);
+            font-family: Space Mono;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 160%;
+            letter-spacing: 0%;
+            text-align: left;
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+    }
+
+    ol {
+        /* Marketplace (Footer) */
+        position: static;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 276px 385px;
+        list-style: none;
+
+        a {
+            /* Base(Body) - Work Sans */
+            /* Base(Body) - Work Sans */
+            color: rgb(204, 204, 204);
+            font-family: $slide;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 140%;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+}
+
+.mainfinal3 {
+    h6 {
+        /* Join our weekly digest (Footer) */
+        position: static;
+        width: 297px;
+        height: 35px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 25;
+        padding: 0px;
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: -450px 650px;
+        /* H5 - Space Mono */
+        color: rgb(255, 255, 255);
+        font-family: "Space Mono", sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 160%;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: capitalize;
+    }
+
+    p {
+        /* Get exclusive promotions & updates straight to your inbox. (Footer) */
+        position: static;
+        width: 330px;
+        height: 44px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20;
+        padding: 0px;
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 480px 654px;
+        /* Base(Body) - Work Sans */
+        color: rgb(204, 204, 204);
+        font-family: $slide;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    input {
+        /* Subscribe Form */
+        position: static;
+        width: 335px;
+        height: 60px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 12;
+        border: none;
+        padding-left: 30px;
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: -450px 655px;
+        border-radius: 20px;
+        /* Text */
+        background: rgb(255, 255, 255);
+    }
+
+    a {
+        /* Button */
+        position: static;
+        width: 129px;
+        height: 60px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 12;
+        padding-right: 50px;
+
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 390px 842px;
+        border-radius: 20px;
+        /* Call to Action */
+        background: rgb(162, 89, 255);
+        color: rgb(255, 255, 255);
+        font-family: $slide;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        list-style: none;
+        text-decoration: none;
+    }
+}

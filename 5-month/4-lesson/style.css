@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.innerBox {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.big {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

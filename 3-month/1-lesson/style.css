@@ -1,0 +1,1202 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ultimate {
+    /* Desktop Version */
+    position: relative;
+    width: 100%;
+    height: 5576px;
+    background: rgb(14, 14, 14);
+}
+
+.navbar {
+    /* Frame 73 */
+    position: absolute;
+    width: 1140px;
+    height: 50px;
+    left: 4.5%;
+    top: 32px;
+
+
+
+
+}
+
+.nav_left img {
+
+    /* Group 3 */
+    position: static;
+    width: 136px;
+    height: 50px;
+
+
+
+
+}
+
+.nav_center ul {
+    /* Home */
+    position: absolute;
+    width: 52px;
+    height: 24px;
+    list-style: none;
+    left: 343px;
+    top: 10px;
+
+
+}
+
+.nav_center ul a {
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 50px;
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+
+.nav_center ol {
+    /* about */
+    position: absolute;
+    width: 51px;
+    height: 24px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 0px;
+    top: 10px;
+    left: 563px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 50px;
+    list-style: none;
+
+}
+
+.nav_center ol a {
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+
+
+.nav_right {
+    /* Frame 2 */
+    position: absolute;
+    width: 185px;
+    height: 48px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 12px 50px 12px 50px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin-left: 955px;
+    top: 0.9px;
+    box-sizing: border-box;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 24px;
+
+}
+
+.nav_right button {
+    /* Contact us */
+    position: static;
+    width: 85px;
+    height: 24px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+
+
+
+    /* Inside Auto Layout */
+
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+    background: none;
+    border: none;
+}
+
+
+
+.pastpart {
+    position: absolute;
+    width: 890px;
+    height: 374px;
+    left: 180px;
+    top: 190px;
+
+}
+
+.pastpart h6 {
+    /* Make your dream business goal come true */
+    position: absolute;
+    width: 749px;
+    height: 174px;
+    left: 70.5px;
+    top: 0;
+    color: rgb(226, 226, 226);
+    font-family: Nunito;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 87px;
+    letter-spacing: 1%;
+    text-align: center;
+}
+
+.pastpart p {
+    /* when you need us for improve your business, then come with us to help your business have reach it, you just sit and feel that goal */
+    position: absolute;
+    width: 767px;
+    height: 60px;
+    left: 59px;
+    top: 198px;
+    color: rgb(226, 226, 226);
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 1%;
+    text-align: center;
+}
+
+.pastpart1 {
+    /* Frame 3 */
+    position: absolute;
+    width: 201px;
+    height: 48px;
+    left: 300px;
+    top: 290px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 12px 50px 12px 50px;
+
+    border-radius: 24px;
+
+    box-shadow: 0px 4px 8px 0px rgba(55, 125, 255, 0.5);
+    background: rgb(226, 226, 226);
+
+}
+
+
+.pastpart button {
+    /* Start Project */
+    position: static;
+    width: 101px;
+    height: 24px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    color: rgb(14, 14, 14);
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+
+    border: none;
+    background: none;
+
+
+
+}
+
+.pastpart2 img {
+
+    position: absolute;
+    width: 985.25px;
+    height: 615.91px;
+    top: 568px;
+    opacity: 93827482947038;
+    left: 0px;
+}
+
+.pastpart3 {
+    /* Ellipse 87 */
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 915px;
+    border-radius: 40px;
+    top: 517px;
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgba(68, 133, 255, 0.8), rgb(55, 125, 255) 100%);
+}
+
+.pastpart4 {
+    /* Ellipse 87 */
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: -104px;
+    border-radius: 40px;
+    top: 253px;
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgba(68, 133, 255, 0.8), rgb(55, 125, 255) 100%);
+}
+
+.pastpart5 {
+    /* Ellipse 89 */
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 1049px;
+    top: 97px;
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 142, 142), rgb(246, 36, 36) 100%);
+    border-radius: 50px;
+}
+
+.pastpart6 {
+    /* About Us */
+    position: absolute;
+    width: 100%;
+    height: 568px;
+
+    top: 1441px;
+
+}
+
+.pastpart6 img {
+    /* About Us */
+    position: absolute;
+    width: 100%;
+    height: 568px;
+    right: 0px;
+    opacity: 99847938243387297379328;
+}
+
+.mainbottom {
+    width: 1180px;
+    height: 569.123240px;
+
+    position: absolute;
+    top: 2259px;
+    left: 3.2%;
+}
+
+.mainbottomtext {
+    width: 50%;
+    height: 100%;
+
+}
+
+.mainbottomtext h6 {
+    /* Our Services */
+    position: absolute;
+    width: 148px;
+    height: 24px;
+    left: 0px;
+    top: 66px;
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+
+}
+
+.mainbottomtext h5 {
+    /* Perfect and Fast Movement */
+    position: absolute;
+    width: 419px;
+    height: 142px;
+    left: 0px;
+    top: 122px;
+    color: rgb(226, 226, 226);
+    font-family: Nunito;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.3%;
+    text-align: left;
+}
+
+.mainbottomtext p {
+    /* We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business */
+    position: absolute;
+    width: 520px;
+    height: 128px;
+    left: 0px;
+    top: 270px;
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.mainbottomtext ul {
+    /* Read more */
+    position: absolute;
+    width: 109px;
+    height: 34px;
+    left: 350px;
+    list-style-type: none;
+    top: 422px;
+}
+
+.mainbottomtext ul a {
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 1%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.mainbottomtext i {
+    position: absolute;
+    top: 440px;
+    left: 470px;
+    z-index: 2;
+}
+
+.mainbottombox {
+    width: 50%;
+    height: 100%;
+
+    position: absolute;
+    left: 590px;
+    top: 0px;
+}
+
+.mainbottombox1 {
+    position: absolute;
+    width: 262px;
+    height: 269px;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+
+    box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(11, 15, 21);
+
+}
+
+
+
+
+
+
+.mainbottombox2 {
+    position: absolute;
+    width: 262px;
+    height: 269px;
+    left: 290px;
+    top: 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+
+    box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(11, 15, 21);
+
+}
+
+
+
+
+.mainbottombox3 {
+    position: absolute;
+    width: 262px;
+    height: 269px;
+    left: 0;
+    top: 300px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+
+    box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(11, 15, 21);
+
+}
+
+
+
+
+.mainbottombox4 {
+    position: absolute;
+    width: 262px;
+    height: 269px;
+    left: 290px;
+    top: 300px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+
+    box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(11, 15, 21);
+
+}
+
+.mainbottombox11 {
+
+    /* Ellipse 55 */
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 81px;
+    top: 35px;
+    background: rgb(226, 226, 226);
+    border-radius: 931340px;
+}
+
+.mainbottombox22 {
+
+    /* Ellipse 55 */
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 81px;
+    top: 35px;
+
+    background: rgb(255, 70, 70);
+    border-radius: 931340px;
+}
+
+.mainbottombox33 {
+
+    /* Ellipse 55 */
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 81px;
+    top: 35px;
+    background: rgb(142, 234, 119);
+    border-radius: 931340px;
+}
+
+.mainbottombox44 {
+
+    /* Ellipse 55 */
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 81px;
+    top: 35px;
+    background: rgb(255, 179, 26);
+    border-radius: 931340px;
+}
+
+
+.mainbottombox1 img {
+
+
+    /* monitor */
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 24%;
+    top: 26px;
+}
+
+.mainbottombox2 img {
+
+
+    /* monitor */
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 24%;
+    top: 25px;
+}
+
+.mainbottombox3 img {
+
+
+    /* monitor */
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 25%;
+    top: 28px;
+}
+
+.mainbottombox4 img {
+
+
+    /* monitor */
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 24%;
+    top: 24px;
+}
+
+
+.mainbottombox1 p {
+    /* Social Media Management */
+    position: absolute;
+    width: 156px;
+    height: 68px;
+    left: -20px;
+    top: 137px;
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 1%;
+    text-align: center;
+}
+
+.mainbottombox2 p {
+    /* Social Media Management */
+    position: absolute;
+    width: 168px;
+    height: 68px;
+    left: -25px;
+    top: 137px;
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 1%;
+    text-align: center;
+}
+
+.mainbottombox3 p {
+    /* Social Media Management */
+    position: absolute;
+    width: 156px;
+    height: 68px;
+    left: -24px;
+    top: 137px;
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 1%;
+    text-align: center;
+}
+
+.mainbottombox4 p {
+    /* Social Media Management */
+    position: absolute;
+    width: 156px;
+    height: 68px;
+    left: -25px;
+    top: 137px;
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 1%;
+    text-align: center;
+}
+
+
+.mainimgga img {
+    /* Our Portfolio */
+    position: absolute;
+    width: 100%;
+    height: 644px;
+    left: 0;
+    top: 2965px;
+    opacity: 943243244343324424234234332343242343248293649827;
+}
+
+.mainimgga1 {
+    /* Frame 1 */
+    position: absolute;
+    width: 226px;
+    height: 48px;
+    left: 526px;
+    top: 3646px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 12px 50px 12px 50px;
+
+    box-sizing: border-box;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 24px;
+
+}
+
+.mainimgga1 button {
+    /* See All Portfolio */
+    position: static;
+    width: 126px;
+    height: 24px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+    border: none;
+    background: none;
+}
+
+
+.mainunder {
+    /* Group 2178 */
+    position: absolute;
+    width: 100%;
+    height: 559.44px;
+
+
+    top: 3850.22px;
+    bottom: 1323.7px;
+
+}
+
+.mainundertext h6 {
+    /* Testimonial */
+    position: absolute;
+    width: 133px;
+    height: 24px;
+    left: 45.5%;
+    top: 0;
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.mainundertext p {
+    /* People Talk about us */
+    position: absolute;
+    width: 548px;
+    height: 75px;
+    left: 29.4%;
+    top: 44px;
+    color: rgb(226, 226, 226);
+    font-family: "Nunito", sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0.3%;
+    text-align: left;
+
+}
+
+
+
+.mainunder1 {
+    /* Rectangle 837 (Frame 22) */
+    position: absolute;
+    width: 330px;
+    height: 335px;
+    left: 50px;
+    top: 224px;
+    border-radius: 20px;
+    margin-left: ;
+
+    display: flex;
+
+    box-shadow: 0px 8px 24px 0px rgba(163, 163, 163, 0.05);
+    background: rgb(11, 15, 21);
+    gap: 50px;
+}
+
+.mainunder2 {
+    /* Rectangle 837 (Frame 22) */
+    position: absolute;
+    width: 330px;
+    height: 335px;
+    left: 465px;
+    top: 224px;
+    border-radius: 20px;
+    margin-left: ;
+
+    display: flex;
+
+    box-shadow: 0px 8px 24px 0px rgba(163, 163, 163, 0.05);
+    background: rgb(11, 15, 21);
+    gap: 50px;
+}
+
+.mainunder3 {
+    /* Rectangle 837 (Frame 22) */
+    position: absolute;
+    width: 330px;
+    height: 335px;
+    right: 50px;
+    top: 224px;
+    border-radius: 20px;
+    margin-left: ;
+
+    display: flex;
+
+    box-shadow: 0px 8px 24px 0px rgba(163, 163, 163, 0.05);
+    background: rgb(11, 15, 21);
+    gap: 50px;
+    z-index: 20;
+}
+
+.mainunder1 img {
+    /* Ellipse 57 (Frame 22) */
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 40px;
+    top: 49.25px;
+}
+
+.mainunder2 img {
+    /* Ellipse 57 (Frame 22) */
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 40px;
+    top: 49.25px;
+}
+
+.mainunder3 img {
+    /* Ellipse 57 (Frame 22) */
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 40px;
+    top: 49.25px;
+}
+
+.mainunder1 h5 {
+    /* Angel Rose (Frame 22) */
+    position: absolute;
+    width: 109px;
+    height: 34px;
+    left: 140px;
+    top: 55px;
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.mainunder2 h5 {
+    /* Angel Rose (Frame 22) */
+    position: absolute;
+    width: 109px;
+    height: 34px;
+    left: 140px;
+    top: 55px;
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.mainunder3 h5 {
+    /* Angel Rose (Frame 22) */
+    position: absolute;
+    width: 109px;
+    height: 34px;
+    left: 140px;
+    top: 55px;
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.mainunder1 h6 {
+    /* Creative Manager (Frame 22) */
+    position: absolute;
+    width: 93px;
+    height: 34px;
+    left: 140px;
+    top: 79px;
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 1%;
+    text-align: left;
+    opacity: 0.5;
+
+}
+
+.mainunder2 h6 {
+    /* Creative Manager (Frame 22) */
+    position: absolute;
+    width: 93px;
+    height: 34px;
+    left: 140px;
+    top: 79px;
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 1%;
+    text-align: left;
+    opacity: 0.5;
+
+}
+
+.mainunder3 h6 {
+    /* Creative Manager (Frame 22) */
+    position: absolute;
+    width: 93px;
+    height: 34px;
+    left: 140px;
+    top: 79px;
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 1%;
+    text-align: left;
+    opacity: 0.5;
+
+}
+
+.mainunder1 p {
+    /* There are many variations passages of Lorem Ipsum majority some by words which don't look . (Frame 22) */
+    position: absolute;
+    width: 309px;
+    height: 84px;
+    left: 20px;
+    top: 144.25px;
+    opacity: 0.8;
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.mainunder2 p {
+    /* There are many variations passages of Lorem Ipsum majority some by words which don't look . (Frame 22) */
+    position: absolute;
+    width: 309px;
+    height: 84px;
+    left: 20px;
+    top: 144.25px;
+    opacity: 0.8;
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.mainunder3 p {
+    /* There are many variations passages of Lorem Ipsum majority some by words which don't look . (Frame 22) */
+    position: absolute;
+    width: 309px;
+    height: 84px;
+    left: 20px;
+    top: 144.25px;
+    opacity: 0.8;
+    color: rgb(226, 226, 226);
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.mainunder11 img {
+    /* Group 2172 */
+    position: absolute;
+    width: 98.48px;
+    height: 70.93px;
+    left: 128.42px;
+    top: -28.22px;
+    transform: rotate(14.48deg);
+
+}
+
+.mainunder22 img {
+    /* Group 2173 */
+    position: absolute;
+    width: 98.48px;
+    height: 70.93px;
+    top: 530px;
+    right: 24.79px;
+
+    z-index: 1;
+    transform: rotate(14.48deg);
+
+}
+
+.mainfinalcha {
+    width: 100%;
+    height: 750px;
+
+    position: absolute;
+    top: 4460px;
+}
+
+.mainfinalchatext {
+    width: 40.5%;
+    height: 100%;
+
+}
+
+.mainfinalchatext h6 {
+    /* Interesting Collaboration With Us? */
+    position: absolute;
+    width: 491px;
+    height: 225px;
+    left: 50px;
+    top: 240px;
+    color: rgb(226, 226, 226);
+    font-family: Nunito;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0.3%;
+    text-align: left;
+}
+
+.mainfinalchatext p {
+    /* Help you to reach your business goal */
+    position: absolute;
+    width: 351px;
+    height: 34px;
+    left: 50px;
+    top: 473px;
+    color: rgb(226, 226, 226);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.mainfinalchab {
+    /* Frame 4 */
+    position: absolute;
+    width: 113px;
+    height: 28px;
+    left: 52px;
+    top: 532px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 12px 50px 12px 50px;
+
+    border-radius: 24px;
+
+    box-shadow: 0px 4px 8px 0px rgba(55, 125, 255, 0.5);
+    background: rgb(226, 226, 226);
+
+
+
+}
+
+.mainfinalchab button {
+    /* Get Started */
+    position: static;
+    width: 93px;
+    height: 24px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    color: rgb(13, 13, 13);
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+    border: none;
+    background: none;
+}
+
+.mainfinalchaimg {
+    width: 59.5%;
+    height: 100%;
+
+    position: absolute;
+    left: 511.40px;
+    top: 0px;
+}
+
+.mainfinalchaimg1 img {
+    /* Rectangle 839 */
+    position: absolute;
+    width: 325px;
+    height: 288px;
+    left: 103px;
+    top: 295px;
+
+    z-index: 2;
+    border-radius: 16px;
+
+
+}
+
+.mainfinalchaimg2 img {
+    /* Rectangle 839 */
+    /* Rectangle 840 */
+    position: absolute;
+    width: 294px;
+    height: 288px;
+    left: 400px;
+    top: 204px;
+    border-radius: 16px;
+
+
+
+
+}
+
+.mainfinalchaimg3 img {
+    /* Group 2137 */
+    position: absolute;
+    width: 103.73px;
+    height: 75.68px;
+    left: 74px;
+
+    top: 252px;
+    bottom: 988.32px;
+    opacity: 32487239;
+}
+
+.mainfinalchaimg4 img {
+    /* Group 2140 */
+    position: absolute;
+    width: 210.21px;
+    height: 70.93px;
+    right: 144px;
+
+    top: 504px;
+    bottom: 761.07px;
+    opacity: 93274983;
+}
+
+.mainfinal {
+    /* Rectangle 841 */
+    position: absolute;
+    width: 100%;
+    height: 548px;
+    left: 0;
+    top: 5293px;
+    background: rgb(56, 54, 56);
+}
+
+.mainfinalimg img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 30px;
+    opacity: 50398049384392887368387;
+}

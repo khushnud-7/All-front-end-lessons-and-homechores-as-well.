@@ -1,0 +1,537 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.ultimate {
+  position: relative;
+  width: 1263px;
+  height: 1125px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  background: rgb(43, 43, 43);
+  margin: 0 auto;
+}
+
+.navbar {
+  width: 1163px;
+  height: 100px;
+  position: absolute;
+  left: 3.8%;
+}
+.navbar .nav_left img {
+  /* nav / logo (Navigation) */
+  position: static;
+  width: 243.41px;
+  height: 32px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 30px 10px;
+}
+.navbar .nav_center ul {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  gap: 50px;
+  /* Button */
+  position: absolute;
+  height: 22px;
+  list-style: none;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: -54px 550px;
+}
+.navbar .nav_center ul a {
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: none;
+}
+.navbar .nav_right a {
+  /* Sign Up (Button) */
+  position: static;
+  width: 82px;
+  height: 50px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12;
+  padding: 0px 40px 0px 50px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: -70px 981px;
+  border-radius: 20px;
+  list-style: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  /* Call to Action */
+  background: rgb(162, 89, 255);
+}
+.navbar .nav_right a i {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 1015px;
+  top: 46px;
+}
+
+.mainbottom {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  width: 1263px;
+  height: 691px;
+}
+.mainbottom .mainbottom1 {
+  width: 50%;
+  height: 100%;
+}
+.mainbottom .mainbottom1 img {
+  /* Image Placeholder (Create account section) */
+  position: static;
+  width: 632px;
+  height: 691px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  margin: 0px 0px;
+  opacity: 99999999;
+}
+.mainbottom .mainbottom2 {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 631.4px;
+}
+.mainbottom .mainbottom2 h6 {
+  /* Create account (Create account section) */
+  position: static;
+  width: 460px;
+  height: 56px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 100px 56px;
+  /* H2 - Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 51px;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbottom .mainbottom2 p {
+  /* Welcome! enter your details and start creating, collecting and selling NFTs. (Create account section) */
+  position: static;
+  width: 460px;
+  height: 70px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: -67px 60px;
+  /* Body Text- Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbottom .mainbottom2 a {
+  /* Button */
+  position: static;
+  width: 220px;
+  height: 46px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12;
+  padding: 0px 50px 0px 50px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 45px 65px;
+  border-radius: 20px;
+  /* Call to Action */
+  background: rgb(162, 89, 255);
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+}
+.mainbottom .mainbottom2 .mainbotttom2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 100px;
+  margin-left: 60px;
+}
+.mainbottom .mainbottom2 .mainbotttom2 input {
+  /* Type Form */
+  top: 180px;
+  width: 330px;
+  height: 46px;
+  padding: 16px 20px 16px 20px;
+  margin: 0px 0px;
+  box-sizing: border-box;
+  border: none;
+  /* Caption & Label Text */
+  border: 1px solid rgb(133, 133, 132);
+  border-radius: 20px;
+  /* Text */
+  background: rgb(255, 255, 255);
+}
+
+.mainfinall {
+  /* Footer */
+  position: static;
+  width: 1263px;
+  height: 334px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 9;
+  flex-grow: 1;
+  margin: 0px 0px;
+  /* Background - Secondary */
+  background: rgb(59, 59, 59);
+}
+.mainfinall .mainfinalll {
+  /* Footer Info (Footer) */
+  position: absolute;
+  width: 1050px;
+  height: 221px;
+  left: 8.1%;
+  top: 720px;
+}
+.mainfinall .mainfinalll .mainfinal1 img {
+  position: static;
+  width: 243.41px;
+  height: 32px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 30px -3px;
+}
+.mainfinall .mainfinalll .mainfinal1 h6 {
+  /* NFT marketplace UI created with Anima for Figma. (Footer) */
+  position: static;
+  width: 238px;
+  height: 44px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 20px 0px;
+  /* Base(Body) - Work Sans */
+  color: rgb(204, 204, 204);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.mainfinall .mainfinalll .mainfinal1 p {
+  /* Join our community (Footer) */
+  position: static;
+  width: 238px;
+  height: 18px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 15px 0px;
+  /* Base(Body) - Work Sans */
+  color: rgb(204, 204, 204);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.mainfinall .mainfinalll .mainfinal1 .mainfinal111 {
+  display: flex;
+  flex-direction: co;
+}
+.mainfinall .mainfinalll .mainfinal1 .mainfinal111 div {
+  margin: 40px 0px;
+  display: flex;
+  gap: 6px;
+}
+.mainfinall .mainfinall2 {
+  /* Divider (Footer) */
+  position: absolute;
+  width: 1050px;
+  height: 0;
+  top: 950px;
+  margin: 30px 8.1%;
+  /* Caption & Label Text */
+  border: 1px solid rgb(133, 133, 132);
+}
+
+.mainfinall1 {
+  position: absolute;
+  top: 990px;
+}
+.mainfinall1 p {
+  /* Caption - Work Sans */
+  color: rgb(204, 204, 204);
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: 0%;
+  margin: 10px 100px;
+  text-align: left;
+}
+
+.mainfinal2 ul {
+  /* Explore (Footer) */
+  position: static;
+  width: 95px;
+  height: 35px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 25;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: -245px 385px;
+  list-style: none;
+}
+.mainfinal2 ul a {
+  /* H5 - Space Mono */
+  color: rgb(255, 255, 255);
+  font-family: Space Mono;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.mainfinal2 ol {
+  /* Marketplace (Footer) */
+  position: static;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 276px 385px;
+  list-style: none;
+}
+.mainfinal2 ol a {
+  /* Base(Body) - Work Sans */
+  /* Base(Body) - Work Sans */
+  color: rgb(204, 204, 204);
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.mainfinal3 h6 {
+  /* Join our weekly digest (Footer) */
+  position: static;
+  width: 297px;
+  height: 35px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 25;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: -450px 650px;
+  /* H5 - Space Mono */
+  color: rgb(255, 255, 255);
+  font-family: "Space Mono", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainfinal3 p {
+  /* Get exclusive promotions & updates straight to your inbox. (Footer) */
+  position: static;
+  width: 330px;
+  height: 44px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 480px 654px;
+  /* Base(Body) - Work Sans */
+  color: rgb(204, 204, 204);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.mainfinal3 input {
+  /* Subscribe Form */
+  position: static;
+  width: 335px;
+  height: 60px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12;
+  border: none;
+  padding-left: 30px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: -450px 655px;
+  border-radius: 20px;
+  /* Text */
+  background: rgb(255, 255, 255);
+}
+.mainfinal3 a {
+  /* Button */
+  position: static;
+  width: 129px;
+  height: 60px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12;
+  padding-right: 50px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 390px 842px;
+  border-radius: 20px;
+  /* Call to Action */
+  background: rgb(162, 89, 255);
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+}/*# sourceMappingURL=signup.css.map */

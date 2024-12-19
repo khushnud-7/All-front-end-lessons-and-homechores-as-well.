@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hometask</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            width: 100%;
+            height: 100vh;
+            background-color: yellow;
+        }
+        .qizil{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            animation-name: slide;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        .zangor{
+            width: 300px;
+            height: 300px;
+            background-color: green;
+            animation-name: slide1;
+            animation-duration: 25s;
+            animation-iteration-count: infinite;
+           
+        }
+        
+        @keyframes slide {
+          
+            0%{
+                width: 300px;
+                height: 300px;
+                margin-left: 0;
+            }
+
+            25%{
+                width: 300px;
+                height: 300px;
+                margin-left: 2259px;
+            }
+            
+            
+        }
+        
+        @keyframes slide1 {
+          
+            0%{
+                width: 300px;
+                height: 300px;
+                margin-left: 0;
+            }
+
+            25%{
+                width: 300px;
+                height: 300px;
+                margin-left: 1000px;
+            }
+            
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="qizil"></div>
+        <div class="zangor"></div>
+    </div>
+</body>
+
+</html>

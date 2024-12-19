@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styl.css">
+    <style>
+        /* Tugma uchun asosiy stil */
+        .cr button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 50px 10px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(45deg, #4CAF50, #81C784);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Tugmaga hover effekti */
+        .cr>button:hover {
+            background: linear-gradient(45deg, #81C784, #4CAF50);
+            transform: translateY(-3px);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Tugmaga faol (kliklangan) holat uchun stil  */
+        .cr>button:active {
+            transform: translateY(-1px);
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .ultimate {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cr"><button id="btsh">click to see cars</button></div>
+    <div class="ultimate"></div>
+</body>
+<script src="pre1.js"></script>
+<script src="pre.js"></script>
+
+</html>

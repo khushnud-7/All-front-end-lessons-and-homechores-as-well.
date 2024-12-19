@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        background: linear-gradient(180deg, #6a11cb, #2575fc);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wave {
+        position: absolute;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle at center, rgba(255, 255, 255, 0.1), transparent);
+        animation: waveMove 6s infinite ease-in-out;
+    }
+
+    @keyframes waveMove {
+        0% {
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        50% {
+            transform: translate(-50%, -50%) scale(1.2);
+        }
+
+        100% {
+            transform: translate(-50%, -50%) scale(1);
+        }
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f3f4f6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .calculator {
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        width: 320px;
+    }
+
+    .display {
+        background: #222;
+        color: #fff;
+        font-size: 2rem;
+        text-align: right;
+        width: 312px;
+        height: 70px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .buttons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .btn {
+        font-size: 1.5rem;
+        padding: 20px;
+        border: 1px solid #ddd;
+        background: #f9f9f9;
+        cursor: pointer;
+        transition: background 0.2s;
+    }
+
+    .btn:hover {
+        background: #e6e6e6;
+    }
+
+    .btn:nth-child(3n + 3) {
+        background: #ff914d;
+        color: white;
+    }
+
+    .btn:nth-child(3n + 3):hover {
+        background: #e66c29;
+    }
+</style>
+
+<body>
+
+    <div class="calculator">
+        <input class="display" type="text">
+        <div class="buttons">
+            <button class="btn" onclick="clearDisplay()">C</button>
+            <button class="btn" onclick="input('%')">%</button>
+            <button class="btn" onclick="input('/')">/</button>
+            <button class="btn" onclick="input('-')">-</button>
+            <button class="btn" onclick="input('1')">1</button>
+            <button class="btn" onclick="input('2')">2</button>
+            <button class="btn" onclick="input('3')">3</button>
+            <button class="btn" onclick="input('+')">+</button>
+            <button class="btn" onclick="input('4')">4</button>
+            <button class="btn" onclick="input('5')">5</button>
+            <button class="btn" onclick="input('6')">6</button>
+            <button class="btn" onclick="input('*')">*</button>
+            <button class="btn" onclick="input('7')">7</button>
+            <button class="btn" onclick="input('8')">8</button>
+            <button class="btn" onclick="input('9')">9</button>
+            <button class="btn" onclick="input('.')">.</button>
+            <button class="btn" onclick="input('0')">0</button>
+            <button class="btn" onclick="calculate('=')">=</button>
+        </div>
+    </div>
+
+</body>
+<script>
+    let resultinput = document.querySelector('.display');
+
+    function input(value) {
+        resultinput.value += value;
+    }
+
+    function clearDisplay() {
+        resultinput.value = '';
+    }
+
+    function calculate() {
+        try {
+            resultinput.value = eval(resultinput.value);
+        } catch {
+            resultinput.value = 'Error';
+        }
+    }
+</script>
+
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+
+        .calculator {
+            width: 300px;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        #result {
+            width: 100%;
+            height: 50px;
+            margin-bottom: 10px;
+            text-align: right;
+            font-size: 1.5em;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        button {
+            height: 50px;
+            font-size: 1.2em;
+            border: none;
+            background: #007bff;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        button.clear {
+            background: #ff4d4d;
+        }
+
+        button.clear:hover {
+            background: #cc0000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="result" disabled>
+        <div class="buttons">
+            <button onclick="clearResult()" class="clear">C</button>
+            <button onclick="appendValue('/')">/</button>
+            <button onclick="appendValue('*')">*</button>
+            <button onclick="appendValue('-')">-</button>
+            <button onclick="appendValue('7')">7</button>
+            <button onclick="appendValue('8')">8</button>
+            <button onclick="appendValue('9')">9</button>
+            <button onclick="appendValue('+')">+</button>
+            <button onclick="appendValue('4')">4</button>
+            <button onclick="appendValue('5')">5</button>
+            <button onclick="appendValue('6')">6</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="appendValue('1')">1</button>
+            <button onclick="appendValue('2')">2</button>
+            <button onclick="appendValue('3')">3</button>
+            <button onclick="appendValue('0')">0</button>
+        </div>
+    </div>
+
+    <script>
+        const resultInput = document.getElementById('result');
+
+        function appendValue(value) {
+            resultInput.value += value;
+        }
+
+        function clearResult() {
+            resultInput.value = '';
+        }
+
+        function calculate() {
+            try {
+                resultInput.value = eval(resultInput.value);
+            } catch {
+                resultInput.value = 'Error';
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,981 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.main {
+    width: 100%;
+    height: 4965px;
+
+
+
+}
+
+.navbar {
+    width: 1140px;
+    height: 46px;
+
+    margin-left: 5%;
+    display: flex;
+
+    align-items: center;
+
+}
+
+.nav_left img {
+    width: 44px;
+    height: 35px;
+}
+
+.nav_center {
+    width: 448px;
+    height: 19px;
+
+    margin-left: 120px;
+
+
+
+}
+
+.nav_center ul {
+    display: flex;
+    list-style: none;
+
+    gap: 25px;
+}
+
+.nav_center ul a {
+    text-decoration: none;
+    color: rgb(21, 12, 1);
+    font-family: "Robot", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.nav_center2 {
+    margin-top: -19px;
+}
+
+.nav_center2 ul a {
+    width: 43px;
+    height: 19px;
+    color: rgb(220, 120, 11);
+    font-family: "Robot", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: -60px;
+    padding-top: -50px;
+}
+
+.nav_right {
+    width: 130px;
+    height: 40px;
+    position: absolute;
+    left: 680px;
+    margin-left: 450px;
+    border-radius: 5px;
+
+    background: rgb(220, 120, 11);
+}
+
+.nav_right button {
+    border: none;
+    background: rgb(220, 120, 11);
+    color: white;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.nav_matnlar {
+    width: 555px;
+    height: 356px;
+
+    margin-left: 60px;
+    margin-top: 200px;
+}
+
+.nav_matn h1 {
+    color: rgb(21, 12, 1);
+    font-family: 'Philosopher', sans-serif;
+    font-size: 48.83px;
+    font-weight: 700;
+}
+
+.nav_matn1 p {
+    color: rgb(21, 12, 1);
+    font-family: "Robot", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.nav_matn3 {
+    width: 158px;
+    height: 50px;
+    border-radius: 15px;
+
+    background: rgb(220, 120, 11);
+    margin-top: 60px;
+    margin-left: 4px;
+}
+
+.nav_matn3 button {
+    color: white;
+    color: rgb(255, 255, 255);
+    font-family: "Robot", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    background: rgb(220, 120, 11);
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.nav_matn4 {
+    width: 158px;
+    height: 50px;
+    border-radius: 15px;
+
+    box-sizing: border-box;
+    background: white;
+    margin-top: -50px;
+    margin-left: 200px;
+    border: 0.1px solid black;
+}
+
+.nav_matn4 button {
+    color: rgb(220, 120, 11);
+    font-family: "Robot", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    background: white;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.nav_rasm img {
+    width: 650px;
+    height: 670px;
+    margin-left: 610px;
+    margin-top: -550px;
+}
+
+.bottom img {
+    margin-top: 130px;
+    margin-left: 50px;
+    position: absolute;
+    top: 730px;
+    left: 50px;
+
+}
+
+.bottom1 img {
+    margin-top: 258px;
+    margin-left: 228px;
+
+}
+
+.bottom2 img {
+    position: absolute;
+    margin-top: -48px;
+    margin-left: 621px;
+}
+
+.bottom3 img {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 1004px;
+}
+
+.mainpastki {
+    width: 1140px;
+    height: 1128px;
+    position: absolute;
+    left: 50px;
+    top: 000px;
+    margin-top: 1480px;
+    margin-left: 10px;
+}
+
+.boshmatn {
+    width: 748px;
+    height: 146px;
+
+    margin-left: 17%;
+}
+
+.matn1 p {
+    color: rgb(220, 120, 11);
+    font-family: "Robot", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 48%;
+
+}
+
+.matn2 p {
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    padding-left: 220px;
+}
+
+.matn3 p {
+    color: rgb(21, 12, 1);
+    font-family: "Robot", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 45px;
+    width: 748px;
+    height: 64px;
+}
+
+.mainovqat1 {
+    width: 360px;
+    height: 446px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 75px 10px 10px 10px;
+    margin-left: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.rasmi {
+    width: 320px;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.rasmi img {
+    width: 320px;
+    height: 250px;
+    border-radius: 76px 10px 76px 0px;
+}
+
+.sozi p {
+    width: 146px;
+    height: 24px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+.narxi p {
+    width: 36px;
+    height: 24px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 300px;
+    margin-top: -25px;
+}
+
+.batafsil {
+    width: 310px;
+    height: 38px;
+    color: rgb(21, 12, 1);
+    font-family: "Robot", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.tugma {
+    width: 36px;
+    height: 34px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 10px;
+    background: rgb(220, 120, 11);
+}
+
+.tugma button {
+    background: rgb(220, 120, 11);
+    border: none;
+    padding-left: 40%;
+    padding-top: 20%;
+    color: white;
+
+}
+
+.balli img {
+    margin-left: 265px;
+
+}
+
+.balli {
+    margin-top: -25px;
+}
+
+.mainovqat2 {
+    width: 360px;
+    height: 446px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 75px 10px 10px 10px;
+    margin-left: 390px;
+    margin-top: -446px;
+    background: rgb(255, 255, 255);
+}
+
+.rasmi1 {
+    width: 320px;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.rasmi1 img {
+    width: 320px;
+    height: 250px;
+    border-radius: 76px 10px 76px 0px;
+}
+
+.sozi1 p {
+    width: 146px;
+    height: 24px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+.narxi1 p {
+    width: 36px;
+    height: 24px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 300px;
+    margin-top: -25px;
+}
+
+.batafsil1 {
+    width: 310px;
+    height: 38px;
+    color: rgb(21, 12, 1);
+    font-family: "Robot", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.tugma1 {
+    width: 36px;
+    height: 34px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 10px;
+    background: rgb(220, 120, 11);
+}
+
+.tugma1 button {
+    background: rgb(220, 120, 11);
+    border: none;
+    padding-left: 40%;
+    padding-top: 20%;
+    color: white;
+
+}
+
+.balli1 img {
+    margin-left: 265px;
+
+}
+
+.balli1 {
+    margin-top: -25px;
+}
+
+.mainovqat3 {
+    width: 360px;
+    height: 446px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 75px 10px 10px 10px;
+    margin-left: 770px;
+    margin-top: -446px;
+    background: rgb(255, 255, 255);
+}
+
+.rasmi2 {
+    width: 320px;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.rasmi2 img {
+    width: 320px;
+    height: 250px;
+    border-radius: 76px 10px 76px 0px;
+}
+
+.sozi2 p {
+    width: 146px;
+    height: 24px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+.narxi2 p {
+    width: 36px;
+    height: 24px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 300px;
+    margin-top: -25px;
+}
+
+.batafsil2 {
+    width: 310px;
+    height: 38px;
+    color: rgb(21, 12, 1);
+    font-family: "Robot", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.tugma2 {
+    width: 36px;
+    height: 34px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 10px;
+    background: rgb(220, 120, 11);
+}
+
+.tugma2 button {
+    background: rgb(220, 120, 11);
+    border: none;
+    padding-left: 40%;
+    padding-top: 20%;
+    color: white;
+
+}
+
+.balli2 img {
+    margin-left: 265px;
+
+}
+
+.balli2 {
+    margin-top: -25px;
+}
+
+.mainovqat4 {
+    width: 360px;
+    height: 446px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 75px 10px 10px 10px;
+    margin-left: 7px;
+    margin-top: 50px;
+    background: rgb(255, 255, 255);
+}
+
+.rasmi3 {
+    width: 320px;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.rasmi3 img {
+    width: 320px;
+    height: 250px;
+    border-radius: 76px 10px 76px 0px;
+}
+
+.sozi3 p {
+    width: 146px;
+    height: 24px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+.narxi3 p {
+    width: 36px;
+    height: 24px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 300px;
+    margin-top: -25px;
+}
+
+.batafsil3 {
+    width: 310px;
+    height: 38px;
+    color: rgb(21, 12, 1);
+    font-family: "Robot", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.tugma3 {
+    width: 36px;
+    height: 34px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 10px;
+    background: rgb(220, 120, 11);
+}
+
+.tugma3 button {
+    background: rgb(220, 120, 11);
+    border: none;
+    padding-left: 40%;
+    padding-top: 20%;
+    color: white;
+
+}
+
+.balli3 img {
+    margin-left: 265px;
+
+}
+
+.balli3 {
+    margin-top: -25px;
+}
+
+.mainovqat5 {
+    width: 360px;
+    height: 446px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 75px 10px 10px 10px;
+    margin-left: 385px;
+    margin-top: -450px;
+    background: rgb(255, 255, 255);
+}
+
+.rasmi4 {
+    width: 320px;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.rasmi4 img {
+    width: 320px;
+    height: 250px;
+    border-radius: 76px 10px 76px 0px;
+}
+
+.sozi4 p {
+    width: 146px;
+    height: 24px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+.narxi4 p {
+    width: 36px;
+    height: 24px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 300px;
+    margin-top: -25px;
+}
+
+.batafsil4 {
+    width: 310px;
+    height: 38px;
+    color: rgb(21, 12, 1);
+    font-family: "Robot", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.tugma4 {
+    width: 36px;
+    height: 34px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 10px;
+    background: rgb(220, 120, 11);
+}
+
+.tugma4 button {
+    background: rgb(220, 120, 11);
+    border: none;
+    padding-left: 40%;
+    padding-top: 20%;
+    color: white;
+
+}
+
+.balli4 img {
+    margin-left: 265px;
+
+}
+
+.balli4 {
+    margin-top: -25px;
+}
+
+.mainovqat6 {
+    width: 360px;
+    height: 446px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 75px 10px 10px 10px;
+    margin-left: 770px;
+    margin-top: -450px;
+    background: rgb(255, 255, 255);
+}
+
+.rasmi5 {
+    width: 320px;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.rasmi5 img {
+    width: 320px;
+    height: 250px;
+    border-radius: 76px 10px 76px 0px;
+}
+
+.sozi5 p {
+    width: 146px;
+    height: 24px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+.narxi5 p {
+    width: 36px;
+    height: 24px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 300px;
+    margin-top: -25px;
+}
+
+.batafsil5 {
+    width: 310px;
+    height: 38px;
+    color: rgb(21, 12, 1);
+    font-family: "Robot", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.tugma5 {
+    width: 36px;
+    height: 34px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 10px;
+    background: rgb(220, 120, 11);
+}
+
+.tugma5 button {
+    background: rgb(220, 120, 11);
+    border: none;
+    padding-left: 40%;
+    padding-top: 20%;
+    color: white;
+
+}
+
+.balli5 img {
+    margin-left: 265px;
+
+}
+
+.balli5 {
+    margin-top: -25px;
+}
+
+.telefon img {
+    width: 1213px;
+    height: 658px;
+
+    margin-top: 100px;
+    margin-left: -30px;
+}
+
+.cheatingtext img {
+    width: 804px;
+    height: 476px;
+    margin-left: 220px;
+    margin-top: 140px;
+}
+
+.mainpast {
+    width: 1260px;
+    height: 148px;
+
+
+    margin-top: 3700px;
+
+}
+
+.mainpast1 img{
+    position: absolute;
+    top: 4200px;
+    left: 30px;
+}
+
+.mainpast img {
+    margin-left: 20%;
+}
+
+.pastkiqora {
+    width: 1260px;
+    height: 429px;
+position: absolute;
+margin-top: -200px;
+    background: rgb(37, 37, 37);
+}
+
+.matinchasi1 img {
+    width: 61px;
+    height: 60px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+
+.matinchasi2 ul {
+    margin-top: 30px;
+    gap: 20px;
+    margin-left: 150px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.matinchasi2 ul a {
+
+    text-decoration: none;
+    gap: 50px;
+
+    color: rgb(255, 255, 255);
+    font-family: "Robot", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.matinchasi3 {
+    margin-top: -180px;
+
+}
+
+.matinchasi3 img {
+    width: 70px;
+    height: 17px;
+    margin-left: 450px;
+
+}
+
+.matinchasi3 ul {
+
+    margin-top: 30px;
+    gap: 20px;
+    margin-left: 460px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.matinchasi3 ul a {
+
+    text-decoration: none;
+    gap: 50px;
+
+    color: rgb(255, 255, 255);
+    font-family: "Robot", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.matinchasi4 {
+    margin-top: -228px;
+    margin-left: 300px;
+}
+
+.matinchasi4 img {
+    width: 70px;
+    height: 17px;
+    margin-left: 450px;
+
+}
+
+.matinchasi4 ul {
+
+    margin-top: 30px;
+    gap: 20px;
+    margin-left: 460px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.matinchasi4 ul a {
+
+    text-decoration: none;
+    gap: 50px;
+
+    color: rgb(255, 255, 255);
+    font-family: "Robot", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.matinchasi5 {
+    margin-top: -228px;
+    margin-left: 550px;
+}
+
+.matinchasi5 img {
+    width: 90px;
+    height: 17px;
+    margin-left: 450px;
+
+}
+
+.matinchasi5 ul {
+
+    margin-top: 30px;
+    gap: 20px;
+    margin-left: 455px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.matinchasi5 ul a {
+
+    text-decoration: none;
+    gap: 50px;
+
+    color: rgb(255, 255, 255);
+    font-family: "Robot", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.matinchasi6 {
+    flex-direction: row;
+
+    width: 100px;
+    height: 21px;
+}
+
+.matinchasi6 img {
+    width: 21px;
+    height: 21px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 1000px;
+    margin-top: 10px;
+
+}
+
+.matinchasi3 p {
+    width: 262px;
+    height: 17px;
+    color: rgb(255, 255, 255);
+    font-family: Philosopher;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 470px;
+}
+
+.matinchasi4 p {
+    width: 262px;
+    height: 17px;
+    color: rgb(255, 255, 255);
+    font-family: Philosopher;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 470px;
+}
+
+.matinchasi5 p {
+    width: 262px;
+    height: 17px;
+    color: rgb(255, 255, 255);
+    font-family: Philosopher;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 450px;
+}
+
+.mainmatinchasi {
+    flex-direction: row;
+    display: flex;
+
+}
+
+.matinchasi7 {
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+.matinchasi8 {
+    margin-top: -30px;
+    margin-left: 60px;
+}
+
+.matinchasi9 {
+    margin-top: -30px;
+    margin-left: 90px;
+}

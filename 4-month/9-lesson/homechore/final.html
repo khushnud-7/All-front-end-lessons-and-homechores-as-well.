@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .ultimate {
+            width: 1280px;
+            height: 100vh;
+            background: rgb(2, 0, 36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+        }
+
+        .main {
+            width: 420px;
+            height: 500px;
+            position: absolute;
+            top: 55px;
+            left: 425px;
+            right: 425px;
+            border-radius: 14px;
+            bottom: 55px;
+            background: rgb(63, 94, 251);
+            background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+            display: flex;
+            flex-direction: column;
+            box-shadow: 4px 4px 6px black;
+
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 900px;
+            color: black;
+            font-family: 'Roboto', sans-serif;
+            padding-top: 100px;
+            position: absolute;
+            top: -80px;
+            left: 118px;
+            text-shadow: 2px 2px 1px brown;
+        }
+
+        .main input {
+
+            width: 330px;
+            height: 30px;
+            -webkit-text-fill-color: black;
+            font-size: 12px;
+            font-weight: 900px;
+            font-family: 'Roboto', sans-serif;
+            outline: none;
+            background: none;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            padding-bottom: 5px;
+            border-bottom: 1.4px solid black;
+            padding-left: 7px;
+            margin-top: 90px;
+            margin-left: 30px;
+            margin-bottom: -70px;
+
+        }
+
+        .main select {
+            width: 335px;
+            height: 30px;
+            font-size: 14px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900px;
+            position: absolute;
+            padding-bottom: 10px;
+            top: 280px;
+            margin-top: 40px;
+            margin-left: 31px;
+            outline: none;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            background: none;
+            border-bottom: 1.4px solid black;
+            padding-left: 3px;
+
+        }
+
+        .main button {
+            position: absolute;
+            top: 290px;
+            width: 150px;
+            height: 40px;
+            border-radius: 80px;
+            outline: none;
+            border: none;
+            font-size: 16px;
+            font-weight: 900px;
+            font-family: 'Roboto', sans-serif;
+            margin-top: 120px;
+            margin-left: 130px;
+            box-shadow: 2px 2px 8px rgb(238, 174, 202);
+            background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+            ;
+
+        }
+
+        .main>button:hover {
+            background: rgb(148, 187, 233);
+            box-shadow: 1px 1px 6px white;
+            transform: translateY(-2px);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        input:hover {
+            background: rgb(238, 174, 202);
+            background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+            box-shadow: 0px 0px 8px;
+            opacity: 0.750;
+        }
+
+        select:hover {
+            background: rgb(238, 174, 202);
+            background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+            box-shadow: 0px 0px 8px;
+            opacity: 0.750;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ultimate">
+        <div class="main">
+            <h1>Enrollment</h1>
+            <input class="input1" type="number" S placeholder="QUANTITY OF CARS">
+            <input class="input2" type="text" placeholder="PHONE NUM1   +998">
+            <input class="input3" type="text" placeholder="PHONE NUM2   +998">
+            <input class="input4" type="text" placeholder="YOUR ADRESS">
+            <select class="select">
+                <option>Select Payment Method</option>
+                <option value="option">Visa</option>
+                <option value="">Click</option>
+            </select>
+            <button>BUY</button>
+        </div>
+    </div>
+</body>
+<script src="final.js"></script>
+
+</html>

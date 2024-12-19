@@ -1,0 +1,2484 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ultimate {
+    width: 100%;
+    background: rgb(238, 251, 250);
+    height: 5656px;
+
+}
+
+.navbar {
+
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+}
+
+.nav_left h6 {
+    position: absolute;
+    left: 50px;
+    width: 206px;
+    height: 45px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0%;
+    top: 5%;
+    text-align: left;
+}
+
+.nav_left h5 {
+    color: rgb(1, 207, 201);
+    width: 206px;
+    height: 45px;
+    position: absolute;
+    top: 5%;
+    left: 170px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.nav_center ul {
+    width: 58px;
+    height: 27px;
+
+    position: absolute;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    left: 360px;
+    top: 6.5%;
+
+
+
+
+}
+
+.nav_center ul a {
+
+    color: rgba(0, 0, 0, 0.72);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.nav_center1 ul {
+    width: 58px;
+    height: 27px;
+
+    position: absolute;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    left: 785px;
+    top: 6.5%;
+
+
+
+
+}
+
+.nav_center1 ul a {
+
+    color: rgba(0, 0, 0, 0.72);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.nav_center2 ul {
+    width: 58px;
+    height: 27px;
+
+    position: absolute;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    left: 915px;
+    top: 6.5%;
+
+
+
+
+}
+
+.nav_center2 ul a {
+
+    color: rgba(0, 0, 0, 0.72);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.nav_right {
+    position: absolute;
+    width: 143px;
+    height: 49px;
+    border-radius: 14px;
+    left: 1100px;
+
+    background: linear-gradient(90.00deg, rgb(15, 38, 80) 24.476%, rgba(15, 38, 80, 0.83) 75.175%);
+}
+
+.nav_right button {
+    /* Prenota */
+    position: absolute;
+    width: 71px;
+    height: 27px;
+    left: 36px;
+    top: 12px;
+    color: rgb(1, 207, 201);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    background: none;
+    border: none;
+}
+
+.mainbottompart {
+    position: absolute;
+    width: 1180px;
+    height: 563px;
+
+    top: 174px;
+    left: 3.6%;
+}
+
+.mainbottompartback {
+    position: absolute;
+    width: 564px;
+    height: 563px;
+    border-radius: 115px;
+
+    top: 0px;
+    left: 636px;
+    background: rgb(1, 207, 201);
+
+    opacity: 3497302479px;
+}
+
+.mainbottompartimg img {
+    width: 626px;
+    height: 637px;
+    position: absolute;
+    top: -74px;
+    left: 560px;
+    z-index: 2;
+    opacity: 327490743243px;
+
+}
+
+.mainbottomparttext h6 {
+    position: absolute;
+    width: 595px;
+    height: 202px;
+    left: 18px;
+    top: 21px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.mainbottomparttext p {
+    position: absolute;
+    width: 600px;
+    height: 88px;
+    left: 18px;
+    top: 254px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainbottompartbutton {
+    /* Rectangle 58 */
+    position: absolute;
+    width: 200px;
+    height: 65px;
+    left: 18px;
+    top: 399px;
+    border-radius: 16px;
+
+    background: linear-gradient(90.00deg, rgb(15, 38, 80) 23.036%, rgba(15, 38, 80, 0.81) 77.321%);
+}
+
+.mainbottompartbutton button {
+    /* Prenota ora */
+    position: absolute;
+    width: 137px;
+    height: 33px;
+    left: 29px;
+    top: 15px;
+    color: rgb(1, 207, 201);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    background: none;
+
+}
+
+.div {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    top: 513px;
+    left: 18px;
+
+    background: rgb(15, 38, 80);
+}
+
+.div i {
+    position: absolute;
+    top: 24px;
+    left: 12px;
+    display: flex;
+    gap: px;
+}
+
+.div2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    top: 513px;
+    left: 265px;
+    background: rgb(15, 38, 80);
+}
+
+.div2 i {
+    position: absolute;
+    top: 24px;
+    left: 12px;
+    z-index: 100;
+}
+
+.div1 h6 {
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* Numero telefonico: */
+    position: absolute;
+    width: 153px;
+    height: 24px;
+    left: 88px;
+    top: 509px;
+
+}
+
+.div1 p {
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* 820 320 320 */
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    left: 88px;
+    top: 529px;
+}
+
+.div2 h6 {
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* Numero telefonico: */
+    position: absolute;
+    width: 173px;
+    height: 24px;
+    left: 80px;
+    top: px;
+
+}
+
+.div2 p {
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* 820 320 320 */
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    height: 24px;
+    left: 80px;
+    top: 19px;
+}
+
+
+.mainbelow {
+
+    width: 1180px;
+    height: 605px;
+
+
+    position: absolute;
+    top: 936px;
+    left: 3.5%;
+
+
+}
+
+.mainbelowpart h6 {
+
+    position: absolute;
+    width: 198px;
+    height: 36px;
+    left: 500px;
+    top: 0px;
+    color: rgb(1, 207, 201);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+}
+
+.mainbelowpart p {
+
+    /* La Nostra Lista Di Trattamenti */
+    position: absolute;
+    width: 727px;
+    height: 72px;
+    left: 270px;
+    top: 36px;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.mainbelowtable {
+
+    width: 100%;
+    height: 60%;
+
+    position: absolute;
+    top: 143px;
+}
+
+.mainbelowtable1 {
+
+    width: 280px;
+    height: 302px;
+
+    position: absolute;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 45px;
+
+    background: linear-gradient(90.00deg, rgb(15, 38, 80) 4.286%, rgba(15, 38, 80, 0.81) 92.857%);
+}
+
+
+
+.mainbelowtable2 {
+    width: 280px;
+    height: 302px;
+
+
+    box-sizing: border-box;
+    border: 2px solid rgb(1, 207, 201);
+    border-radius: 45px;
+
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 300px;
+
+
+
+}
+
+.mainbelowtable3 {
+    width: 280px;
+    height: 302px;
+
+
+    box-sizing: border-box;
+    border: 2px solid rgb(1, 207, 201);
+    border-radius: 45px;
+
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 600px;
+
+}
+
+.mainbelowtable4 {
+    width: 280px;
+    height: 302px;
+
+
+    box-sizing: border-box;
+    border: 2px solid rgb(1, 207, 201);
+    border-radius: 45px;
+
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 900px;
+
+}
+
+
+
+.mainbelowbc1 {
+    width: 89px;
+    height: 89px;
+    border-radius: 12px;
+
+    background: rgb(183, 236, 234);
+    position: absolute;
+    top: 184px;
+    left: 8%;
+
+}
+
+.mainbelowbc2 {
+    width: 89px;
+    height: 89px;
+    border-radius: 12px;
+
+    background: rgb(183, 236, 234);
+    position: absolute;
+    top: 184px;
+    left: 33.8%;
+    z-index: 10;
+
+}
+
+.mainbelowbc3 {
+    width: 89px;
+    height: 89px;
+    border-radius: 12px;
+
+    background: rgb(183, 236, 234);
+    position: absolute;
+    top: 184px;
+    left: 59%;
+
+}
+
+.mainbelowbc4 {
+    width: 89px;
+    height: 89px;
+    border-radius: 12px;
+
+    background: rgb(183, 236, 234);
+    position: absolute;
+    top: 184px;
+    left: 84.8%;
+
+}
+
+.mainbelowimg1 img {
+    width: 42px;
+    height: 64.26px;
+    position: absolute;
+    z-index: 22;
+    top: 200px;
+    left: 115px;
+    opacity: 32094832847px;
+}
+
+.mainbelowimg5 img {
+    width: 43px;
+    height: 50px;
+
+    position: absolute;
+    z-index: 1809809308974479470327000;
+    top: 200px;
+    left: 420px;
+    opacity: 2311243px;
+}
+
+.mainbelowimg3 img {
+    width: 50px;
+    height: 56.85px;
+    position: absolute;
+    z-index: 22;
+    top: 200px;
+    left: 715px;
+    opacity: 247924854px;
+}
+
+.mainbelowimg4 img {
+    width: 78px;
+    height: 75.4px;
+    position: absolute;
+    z-index: 22;
+    top: 192px;
+    left: 1007px;
+    opacity: 32094873px;
+}
+
+.mainbelowimg2 img {
+
+    width: 73px;
+    height: 32px;
+    position: absolute;
+    opacity: 37498327px;
+
+    top: 235px;
+    z-index: 31;
+    left: 407px;
+}
+
+.mainbelowimg1 h6 {
+    /* Protesi dentali */
+    position: absolute;
+    width: 161px;
+    height: 33px;
+    left: 65px;
+    top: 293px;
+    color: rgb(1, 207, 201);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainbelowimg1 p {
+
+    /* Tecnologia avnzata con risultati sorprendenti */
+    position: absolute;
+    width: 241px;
+    height: 48px;
+    left: 20px;
+    top: 342px;
+    z-index: 343;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.mainbelowimg2 h6 {
+
+    /* Ortodonzia */
+    position: absolute;
+    width: 124px;
+    height: 33px;
+    left: 380px;
+    top: 293px;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainbelowimg2 p {
+    /* Sigillatura del canale ripulito e disinfettato */
+    position: absolute;
+    width: 203px;
+    height: 48px;
+    left: 338px;
+    top: 342px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.mainbelowimg3 h6 {
+    /* Sbiancamento */
+    position: absolute;
+    width: 166px;
+    height: 33px;
+    left: 659px;
+    top: 293px;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainbelowimg3 p {
+    /* Pulizia professionale con strumenti manuali */
+    position: absolute;
+    width: 272px;
+    height: 48px;
+    left: 606px;
+    top: 342px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.mainbelowimg4 h6 {
+
+    /* Igiene dentale */
+    position: absolute;
+    width: 161px;
+    height: 33px;
+    left: 966px;
+    top: 293px;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainbelowimg4 p {
+    /* Trattamenti di igiene orale professionale. */
+    position: absolute;
+    width: 224px;
+    height: 48px;
+    left: 933px;
+    top: 343px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.mainbelowbutton {
+    /* Rectangle 66 */
+    position: absolute;
+    width: 240px;
+    height: 65px;
+    left: 484px;
+    top: 540px;
+    border-radius: 16px;
+
+    background: linear-gradient(91.10deg, rgb(15, 38, 80) 23.774%, rgba(15, 38, 80, 0.81) 75.697%);
+}
+
+.mainbelowbutton button {
+    width: 138px;
+    height: 33px;
+    color: rgb(1, 207, 201);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    background: none;
+    position: absolute;
+
+    left: 50px;
+    top: 15px;
+}
+
+.mainunder {
+
+    width: 1220px;
+    height: 637px;
+
+    position: absolute;
+    top: 1591px;
+    left: 43px;
+}
+
+.mainunderimg {
+    width: 50%;
+    height: 637px;
+
+    position: absolute;
+    opacity: 99999999999999999999999;
+
+    left: 610px;
+}
+
+.mainunderimg img {
+    width: 660px;
+    height: 570px;
+    position: absolute;
+    z-index: 4;
+    top: 67px;
+    left: -50px;
+    opacity: 9999999999999999999999999;
+}
+
+.mainunderimg1 {
+    width: 323px;
+    height: 315px;
+    border-radius: 78px;
+    position: absolute;
+    top: 322px;
+    left: 22%;
+
+    background: rgb(1, 207, 201);
+}
+
+.mainundertext {
+    width: 50%;
+    height: 637px;
+
+    position: absolute;
+
+
+}
+
+.mainundertext h6 {
+    /* IL NISTRO STUDIO */
+    position: absolute;
+    width: 209px;
+    height: 36px;
+    top: 100px;
+
+    color: rgb(1, 207, 201);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.mainundertext h5 {
+    /* Chi Siamo Noi? */
+    position: absolute;
+    width: 368px;
+    height: 72px;
+
+    top: 145px;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.mainundertext p {
+    /* DentalCare è la prima realtà della sanità privata italiana ad avere 3 Certificazioni ISO in Qualità, Ambiente e Sicurezza: la qualità dei servizi offerti ai pazienti viene certificata da enti terzi e innovazione e formazione giocano un ruolo fondamentale nello sviluppo della professione. */
+    position: absolute;
+    width: 646px;
+    height: 160px;
+    top: 234px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainundercal {
+    width: 89px;
+    height: 89px;
+    border-radius: 12px;
+    position: absolute;
+    top: 419px;
+
+
+    background: rgb(183, 236, 234);
+}
+
+.mainundernewsp {
+    width: 89px;
+    height: 89px;
+    border-radius: 12px;
+    position: absolute;
+    top: 540px;
+
+
+    background: rgb(183, 236, 234);
+}
+
+.mainundercal img {
+    /* clock */
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 22%;
+    top: 20px;
+}
+
+.mainundernewsp img {
+    /* clock */
+    position: absolute;
+    width: 58px;
+    height: 62.24px;
+    left: 18%;
+    top: 14px;
+}
+
+
+.mainundercal h6 {
+    /* Orari completi per tutti */
+    position: absolute;
+    width: 256px;
+    height: 33px;
+    left: 127px;
+
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainundercal p {
+    /* I Centri DentalPro sono aperti dalle 9 di mattina fino alle 20 con orario continuato. */
+    position: absolute;
+    width: 384px;
+    height: 56px;
+    left: 127px;
+    top: 40px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainundernewsp h6 {
+    /* Dilazioni di pagamento */
+    position: absolute;
+    width: 260px;
+    height: 33px;
+    left: 127px;
+    top: px;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainundernewsp p {
+    /* DentalCare offre un piano di pagamento personalizzato, La salute del paziente deve essere sempre il nostro primo obiettivo. */
+    position: absolute;
+    width: 518px;
+    height: 48px;
+    left: 127px;
+    top: 40px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* .mainbox{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+    
+} */
+
+.mainbox1 {
+    /* Rectangle 71 */
+    position: absolute;
+    width: 193px;
+    height: 99px;
+    left: 117px;
+    top: 2395px;
+    box-sizing: border-box;
+    border: 2px solid rgb(1, 207, 201);
+    border-radius: 16px;
+
+
+    background: rgb(255, 255, 255);
+}
+
+.mainbox2 {
+    /* Rectangle 71 */
+    position: absolute;
+    width: 193px;
+    height: 99px;
+    left: 408px;
+    top: 2395px;
+    box-sizing: border-box;
+    border: 2px solid rgb(1, 207, 201);
+    border-radius: 16px;
+
+
+    background: rgb(255, 255, 255);
+}
+
+.mainbox3 {
+    /* Rectangle 71 */
+    position: absolute;
+    width: 193px;
+    height: 99px;
+    left: 700px;
+    top: 2395px;
+    box-sizing: border-box;
+    border: 2px solid rgb(1, 207, 201);
+    border-radius: 16px;
+
+
+    background: rgb(255, 255, 255);
+}
+
+.mainbox4 {
+    /* Rectangle 71 */
+    position: absolute;
+    width: 193px;
+    height: 99px;
+    left: 1000px;
+    top: 2395px;
+    box-sizing: border-box;
+    border: 2px solid rgb(1, 207, 201);
+    border-radius: 16px;
+
+
+    background: rgb(255, 255, 255);
+}
+
+.mainbox1 h6 {
+    position: absolute;
+    width: 114px;
+    height: 60px;
+
+    left: 20%;
+
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainbox1 p {
+    width: 169px;
+    height: 24px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: absolute;
+    top: 55px;
+    left: 20%;
+
+}
+
+.mainbox2 h6 {
+    position: absolute;
+    width: 114px;
+    height: 60px;
+
+    left: 25%;
+
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainbox2 p {
+    width: 169px;
+    height: 24px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: absolute;
+    top: 55px;
+    left: 8%;
+
+}
+
+.mainbox3 h6 {
+    position: absolute;
+    width: 114px;
+    height: 60px;
+
+    left: 34%;
+
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainbox3 p {
+    width: 169px;
+    height: 24px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: absolute;
+    top: 55px;
+    left: 22%;
+
+}
+
+.mainbox4 h6 {
+    position: absolute;
+    width: 114px;
+    height: 60px;
+
+    left: 40%;
+
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainbox4 p {
+    width: 169px;
+    height: 24px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: absolute;
+    top: 55px;
+    left: 15%;
+
+}
+
+.mainads {
+    width: 1180px;
+    height: 367px;
+
+    position: absolute;
+    top: 2751px;
+    left: 3.5%;
+
+}
+
+.mainads1 h6 {
+    /* LO STAFF */
+    position: absolute;
+    width: 110px;
+    height: 36px;
+    left: 46%;
+
+    color: rgb(1, 207, 201);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainads1 p {
+    /* Incontra i nostri specialisti */
+    position: absolute;
+    width: 654px;
+    height: 72px;
+    left: 25%;
+    top: 20px;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainadsimg {
+    width: 100%;
+    height: 257px;
+
+    position: absolute;
+    top: 165px;
+}
+
+.mainadsimgpart1 {
+    position: absolute;
+    width: 291px;
+    height: 201px;
+
+    top: 55px;
+    border-radius: 44px;
+
+    background: linear-gradient(90.00deg, rgb(15, 38, 80) 17.182%, rgba(15, 38, 80, 0.81) 85.052%);
+}
+
+
+.mainadsimgpart2 {
+    /* Rectangle 76 */
+    position: absolute;
+    width: 291px;
+    height: 201px;
+    left: 305px;
+    top: 55px;
+    box-sizing: border-box;
+    border: 1.5px solid rgb(1, 207, 201);
+    border-radius: 44px;
+
+    background: rgb(255, 255, 255);
+}
+
+.mainadsimgpart3 {
+    /* Rectangle 76 */
+    position: absolute;
+    width: 287px;
+    height: 201px;
+    left: 610px;
+    top: 55px;
+    box-sizing: border-box;
+    border: 1.5px solid rgb(1, 207, 201);
+    border-radius: 44px;
+
+    background: rgb(255, 255, 255);
+}
+
+.mainadsimgpart4 {
+    /* Rectangle 76 */
+    position: absolute;
+    width: 271px;
+    height: 201px;
+    left: 910px;
+    top: 55px;
+    box-sizing: border-box;
+    border: 1.5px solid rgb(1, 207, 201);
+    border-radius: 44px;
+
+    background: rgb(255, 255, 255);
+}
+
+
+.mainadsimgpart11 {
+    width: 115px;
+    height: 110px;
+    border-radius: 27px;
+    position: absolute;
+
+    top: -55px;
+    left: 30%;
+    background: rgb(190, 242, 240);
+}
+
+.mainadsimgpart22 {
+    width: 115px;
+    height: 110px;
+    border-radius: 27px;
+    position: absolute;
+
+    top: -55px;
+    left: 30%;
+    background: rgb(190, 242, 240);
+}
+
+.mainadsimgpart33 {
+    width: 115px;
+    height: 110px;
+    border-radius: 27px;
+    position: absolute;
+
+    top: -55px;
+    left: 30%;
+    background: rgb(190, 242, 240);
+}
+
+.mainadsimgpart44 {
+    width: 115px;
+    height: 110px;
+    border-radius: 27px;
+    position: absolute;
+
+    top: -55px;
+    left: 30%;
+    background: rgb(190, 242, 240);
+}
+
+.mainadsimgpart1 img {
+    width: 124px;
+    height: 110px;
+    position: absolute;
+    z-index: 33;
+
+
+    top: -55px;
+    left: 28%;
+
+}
+
+.mainadsimgpart2 img {
+    width: 119px;
+    height: 110px;
+    z-index: 33;
+    position: absolute;
+
+    top: -55px;
+    left: 30%;
+
+}
+
+.mainadsimgpart3 img {
+    width: 127px;
+    height: 121px;
+    z-index: 33;
+    position: absolute;
+
+    top: -67px;
+    left: 28%;
+
+}
+
+.mainadsimgpart4 img {
+    width: 120px;
+    height: 114px;
+    z-index: 33;
+    position: absolute;
+
+    top: -54px;
+    left: 30%;
+
+}
+
+.mainadsimgpart1 h6 {
+    /* Fabio Russo */
+    position: absolute;
+    width: 134px;
+    height: 33px;
+    left: 78px;
+    top: 86px;
+    color: rgb(1, 207, 201);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainadsimgpart1 p {
+    /* Chirurgo dentale */
+    position: absolute;
+    width: 202px;
+    height: 33px;
+    left: 53px;
+    top: 120px;
+
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainadsimgpart2 h6 {
+    width: 152px;
+    height: 33px;
+    left: 73px;
+    top: 85px;
+    position: absolute;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainadsimgpart2 p {
+    /* Igienista dentale */
+    position: absolute;
+    width: 202px;
+    height: 33px;
+    left: 83px;
+    top: 120px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainadsimgpart3 h6 {
+    width: 152px;
+    height: 33px;
+    left: 73px;
+    top: 85px;
+    position: absolute;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainadsimgpart3 p {
+    /* Igienista dentale */
+    position: absolute;
+    width: 202px;
+    height: 33px;
+    left: 55px;
+    top: 120px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainadsimgpart4 h6 {
+    width: 152px;
+    height: 33px;
+    left: 3px;
+    top: 138px;
+    position: absolute;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainadsimgpart4 p {
+    /* Igienista dentale */
+    position: absolute;
+    width: 202px;
+    height: 33px;
+    left: -15px;
+    top: 174px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.mainfaq {
+    width: 1180px;
+    height: 870px;
+
+    position: absolute;
+    top: 3336px;
+    left: 3.5%;
+}
+
+
+.mainfaqtext h6 {
+    /* FAQ */
+    position: absolute;
+    width: 51px;
+    height: 36px;
+    left: 48%;
+
+    color: rgb(1, 207, 201);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.mainfaqtext p {
+    /* Hai qualche domanda ? */
+    position: absolute;
+    width: 585px;
+    height: 72px;
+    left: 27%;
+    top: 30px;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainfaq1 {
+    width: 1127px;
+    height: 171px;
+    box-sizing: border-box;
+    border: 1px solid rgb(1, 207, 201);
+    border-radius: 28px;
+    position: absolute;
+
+    top: 171px;
+    left: 2.3%;
+    background: rgb(255, 255, 255);
+}
+
+
+.mainfaq2 {
+    /* Rectangle 95 */
+    position: absolute;
+    width: 1125px;
+    height: 82px;
+    left: 2.3%;
+    box-sizing: border-box;
+    border: 1px solid rgb(1, 207, 201);
+    border-radius: 28px;
+
+    background: rgb(255, 255, 255);
+    top: 364px;
+}
+
+.mainfaq3 {
+    /* Rectangle 95 */
+    position: absolute;
+    width: 1125px;
+    height: 82px;
+    left: 2.3%;
+    box-sizing: border-box;
+    border: 1px solid rgb(1, 207, 201);
+    border-radius: 28px;
+
+    background: rgb(255, 255, 255);
+    top: 468px;
+}
+
+.mainfaq4 {
+    /* Rectangle 95 */
+    position: absolute;
+    width: 1125px;
+    height: 82px;
+    left: 2.3%;
+    box-sizing: border-box;
+    border: 1px solid rgb(1, 207, 201);
+    border-radius: 28px;
+
+    background: rgb(255, 255, 255);
+    top: 572px;
+}
+
+.mainfaq5 {
+    /* Rectangle 95 */
+    position: absolute;
+    width: 1125px;
+    height: 82px;
+    left: 2.3%;
+    box-sizing: border-box;
+    border: 1px solid rgb(1, 207, 201);
+    border-radius: 28px;
+
+    background: rgb(255, 255, 255);
+    top: 675px;
+}
+
+.mainfaq1 h6 {
+    /* Quando lavarsi i denti durante la giornata? */
+    position: absolute;
+    width: 531px;
+    height: 72px;
+    left: 59px;
+    top: 13px;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainfaq1 p {
+    /* Dopo 20 o 30 minuti dai pasti principali, per permettere alla saliva di neutralizzare l’acidità di alcuni alimenti, come ad esempio agrumi, caffè e bibite gassate. I denti vanno spazzolati per almeno due minuti. Chi soffre di infiammazione alle gengive dovrebbe invece arrivare a 4-5. */
+    position: absolute;
+    width: 1021px;
+    height: 81px;
+    left: 60px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    top: 64px;
+}
+
+.mainfaq2 p {
+    /* Quali alimenti aiutano a mantenere puliti i denti in caso di apparecchio? */
+    position: absolute;
+    width: 883px;
+    height: 36px;
+    left: 59px;
+    top: 22px;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainfaq3 p {
+    /* Quali alimenti aiutano a mantenere puliti i denti in caso di apparecchio? */
+    position: absolute;
+    width: 883px;
+    height: 36px;
+    left: 59px;
+    top: 22px;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainfaq4 p {
+    /* Quali alimenti aiutano a mantenere puliti i denti in caso di apparecchio? */
+    position: absolute;
+    width: 883px;
+    height: 36px;
+    left: 59px;
+    top: 22px;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainfaq5 p {
+    /* Quali alimenti aiutano a mantenere puliti i denti in caso di apparecchio? */
+    position: absolute;
+    width: 883px;
+    height: 36px;
+    left: 59px;
+    top: 22px;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.minuscircle {
+    width: 38.33px;
+    height: 38.33px;
+    border: 2px solid rgb(15, 38, 80);
+    background: rgb(15, 38, 80);
+    border-radius: 20px;
+    position: absolute;
+    left: 1056px;
+    top: 15px;
+}
+
+.mainfaq1 i {
+    position: absolute;
+    right: 34.5px;
+    top: 35px;
+    z-index: 30;
+}
+
+.pluscircle1 {
+    width: 38.33px;
+    height: 38.33px;
+    border: 2px solid rgb(15, 38, 80);
+    background: rgb(15, 38, 80);
+    border-radius: 20px;
+    position: absolute;
+    left: 1056px;
+    top: 15px;
+}
+
+.mainfaq2 i {
+    position: absolute;
+    right: 32.9px;
+    top: 36px;
+    z-index: 30;
+}
+
+.pluscircle2 {
+    width: 38.33px;
+    height: 38.33px;
+    border: 2px solid rgb(15, 38, 80);
+    background: rgb(15, 38, 80);
+    border-radius: 20px;
+    position: absolute;
+    left: 1056px;
+    top: 15px;
+}
+
+.mainfaq3 i {
+    position: absolute;
+    right: 32.9px;
+    top: 36px;
+    z-index: 30;
+}
+
+.pluscircle3 {
+    width: 38.33px;
+    height: 38.33px;
+    border: 2px solid rgb(15, 38, 80);
+    background: rgb(15, 38, 80);
+    border-radius: 20px;
+    position: absolute;
+    left: 1056px;
+    top: 15px;
+}
+
+.mainfaq4 i {
+    position: absolute;
+    right: 32.9px;
+    top: 36px;
+    z-index: 30;
+}
+
+.pluscircle4 {
+    width: 38.33px;
+    height: 38.33px;
+    border: 2px solid rgb(15, 38, 80);
+    background: rgb(15, 38, 80);
+    border-radius: 20px;
+    position: absolute;
+    left: 1056px;
+    top: 15px;
+}
+
+.mainfaq5 i {
+    position: absolute;
+    right: 32.9px;
+    top: 36px;
+    z-index: 30;
+}
+
+.mainfaqbutton {
+    /* Rectangle 99 */
+    position: absolute;
+    width: 240px;
+    height: 65px;
+    left: 480px;
+    top: 804px;
+    border-radius: 16px;
+
+    background: linear-gradient(90.00deg, rgb(15, 38, 80) 24.643%, rgba(15, 38, 80, 0.81) 77.321%);
+}
+
+.mainfaqbutton button {
+    /* Scopri di più */
+    position: absolute;
+    width: 138px;
+    height: 33px;
+    left: 50px;
+    background: none;
+    border: none;
+    top: 15px;
+    color: rgb(1, 207, 201);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.mainalmostfinal {
+    width: 1180px;
+    height: 390px;
+
+
+    position: absolute;
+    top: 4400px;
+    left: 3.5%;
+}
+
+.mainalmostfinaltext h6 {
+    /* LE NOSTRE RECENSIONI */
+    position: absolute;
+    width: 276px;
+    height: 36px;
+    left: 39%;
+    top: 0px;
+    color: rgb(1, 207, 201);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainalmostfinaltext p {
+    /* Cosa dicono su di noi */
+    position: absolute;
+    width: 520px;
+    height: 72px;
+    left: 29%;
+    top: 25px;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainalmostfinalbox {
+    width: 100%;
+    height: 212px;
+
+    margin-top: 150px;
+
+}
+
+.mainafbox1 {
+    /* Rectangle 87 */
+    position: absolute;
+    width: 375px;
+    height: 212px;
+
+
+    box-sizing: border-box;
+    border: 1px solid rgb(1, 207, 201);
+    border-radius: 40px;
+
+    background: rgb(255, 255, 255);
+}
+
+.mainafbox2 {
+    /* Rectangle 87 */
+    position: absolute;
+    width: 375px;
+    height: 212px;
+
+    left: 404px;
+    box-sizing: border-box;
+    border: 1px solid rgb(1, 207, 201);
+    border-radius: 40px;
+
+    background: rgb(255, 255, 255);
+}
+
+.mainafbox3 {
+    /* Rectangle 87 */
+    position: absolute;
+    width: 375px;
+    height: 212px;
+
+    left: 805px;
+
+    box-sizing: border-box;
+    border: 1px solid rgb(1, 207, 201);
+    border-radius: 40px;
+
+    background: rgb(255, 255, 255);
+}
+
+.mainafbox1 img {
+    /* Ellipse 22 */
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 40%;
+    top: 0px;
+}
+
+.mainafbox2 img {
+    /* Ellipse 22 */
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 40%;
+    top: 0px;
+}
+
+.mainafbox3 img {
+    /* Ellipse 22 */
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 43%;
+    top: 0px;
+}
+
+
+.mainafbox1 h6 {
+    /* Alessandro */
+    position: absolute;
+    width: 127px;
+    height: 33px;
+    left: 120px;
+    top: 73px;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainafbox1 p {
+    color: rgba(0, 0, 0, 0.78);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    /* Personale gentile e veloce … consiglio vivamente a chiunque ha bisogno di cure odontoiatriche. */
+    position: absolute;
+    width: 314px;
+    height: 66px;
+    left: 36px;
+    top: 111px;
+}
+
+.mainafbox2 h6 {
+    /* Alessandro */
+    position: absolute;
+    width: 127px;
+    height: 33px;
+    left: 133px;
+    top: 73px;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainafbox2 p {
+    /* Sono soddisfatta,ho trovato serietà,professionalità,accoglienza..grazie Dott. Coscia */
+    position: absolute;
+    width: 320px;
+    height: 66px;
+    left: 30px;
+    top: 111px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 144%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.mainafbox3 h6 {
+    /* Alessandro */
+    position: absolute;
+    width: 127px;
+    height: 33px;
+    left: 150px;
+    top: 73px;
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainafbox3 p {
+    /* Nuovi denti, su nuovi impianti. Mi è tornato il sorriso. Grazie ancora. */
+    position: absolute;
+    width: 322px;
+    height: 66px;
+    left: 40px;
+    top: 109px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.mainimg22 img {
+    /* Vector */
+    position: absolute;
+    width: 15px;
+    height: 14.7px;
+    left: 124px;
+    top: 188px;
+}
+
+.mainimg33 img {
+    /* Vector */
+    position: absolute;
+    width: 15px;
+    height: 14.7px;
+    left: 144px;
+    top: 188px;
+}
+
+.mainimg44 img {
+    /* Vector */
+    position: absolute;
+    width: 15px;
+    height: 14.7px;
+    left: 164px;
+    top: 188px;
+}
+
+.mainimg55 img {
+    /* Vector */
+    position: absolute;
+    width: 15px;
+    height: 14.7px;
+    left: 184px;
+    top: 188px;
+}
+
+.mainimg11 img {
+    /* Vector */
+    position: absolute;
+    width: 15px;
+    height: 14.7px;
+    left: 204px;
+    top: 188px;
+}
+
+.mainimg66 img {
+    /* Vector */
+    position: absolute;
+    width: 15px;
+    height: 14.7px;
+    left: 144px;
+    top: 188px;
+}
+
+.mainimg77 img {
+    /* Vector */
+    position: absolute;
+    width: 15px;
+    height: 14.7px;
+    left: 164px;
+    top: 188px;
+}
+
+.mainimg88 img {
+    /* Vector */
+    position: absolute;
+    width: 15px;
+    height: 14.7px;
+    left: 184px;
+    top: 188px;
+}
+
+.mainimg99 img {
+    /* Vector */
+    position: absolute;
+    width: 15px;
+    height: 14.7px;
+    left: 204px;
+    top: 188px;
+}
+
+.mainimg111 img {
+    /* Vector */
+    position: absolute;
+    width: 15px;
+    height: 14.7px;
+    left: 224px;
+    top: 188px;
+}
+
+.mainimg666 img {
+    /* Vector */
+    position: absolute;
+    width: 15px;
+    height: 14.7px;
+    left: 144px;
+    top: 188px;
+}
+
+.mainimg777 img {
+    /* Vector */
+    position: absolute;
+    width: 15px;
+    height: 14.7px;
+    left: 164px;
+    top: 188px;
+}
+
+.mainimg888 img {
+    /* Vector */
+    position: absolute;
+    width: 15px;
+    height: 14.7px;
+    left: 184px;
+    top: 188px;
+}
+
+.mainimg999 img {
+    /* Vector */
+    position: absolute;
+    width: 15px;
+    height: 14.7px;
+    left: 204px;
+    top: 188px;
+}
+
+.mainimg1111 img {
+    /* Vector */
+    position: absolute;
+    width: 15px;
+    height: 14.7px;
+    left: 224px;
+    top: 188px;
+}
+
+.mainpaint1 img {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 397px;
+    left: 47%;
+}
+
+.mainpaint2 img {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 397px;
+    left: 49%;
+}
+
+.mainpaint3 img {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 397px;
+    left: 51%;
+}
+
+.mainpaint4 img {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 397px;
+    left: 53%;
+}
+
+.mainboxer {
+    position: absolute;
+    width: 1010px;
+    height: 252px;
+    top: 5047px;
+    left: 11%;
+    border-radius: 76px;
+    z-index: 22;
+    background: linear-gradient(90.00deg, rgb(15, 38, 80) 13.911%, rgba(15, 38, 80, 0.81) 87.327%);
+}
+
+.mainboxer h6 {
+    /* Iscriviti alla nostra Newsletter */
+    position: absolute;
+    width: 561px;
+    height: 54px;
+    left: 240px;
+    top: 49px;
+    color: rgb(1, 207, 201);
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainboxer input {
+    width: 676px;
+    border: none;
+    background: none;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+    height: 90px;
+    border-radius: 14px;
+    border: none;
+    position: absolute;
+    top: 118px;
+    left: 172px;
+    padding-left: 60px;
+    background: rgb(255, 255, 255);
+}
+
+.mainboxer1 {
+    /* Rectangle 105 */
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    left: 722px;
+    top: 135px;
+    border-radius: 14px;
+
+    background: linear-gradient(90.00deg, rgb(15, 38, 80) 24.476%, rgba(15, 38, 80, 0.83) 75.175%);
+}
+
+.mainboxer1 button {
+    /* Iscriviti */
+    position: absolute;
+    width: 95px;
+    height: 36px;
+    left: 39px;
+    top: 9px;
+    color: rgb(1, 207, 201);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    background: none;
+    border: none;
+}
+
+
+.mainfw {
+    width: 100%;
+    height: 486px;
+    background: rgba(1, 207, 201, 0.2);
+
+    top: 5170px;
+    position: absolute;
+}
+
+.mainfww {
+    width: 100%;
+    height: 60%;
+
+    margin-top: 195px;
+}
+
+.mainfwt h6 {
+    position: absolute;
+    left: 43px;
+    width: 206px;
+    height: 45px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0%;
+    top: 173px;
+    text-align: left;
+}
+
+.mainfwt p {
+    color: rgb(1, 207, 201);
+    width: 206px;
+    height: 45px;
+    position: absolute;
+    top: 173px;
+    left: 139px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainfwt ol {
+    position: absolute;
+    width: 191px;
+    height: 26px;
+    top: 175px;
+    left: 392px;
+    list-style: none;
+    gap: 167px;
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+.mainfwt ol a {
+    color: rgb(15, 38, 80);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.mainfwt h5 {
+    /* Offriamo servizi di qualitò con personale qualificato con più 5 anni di esperienza */
+    position: absolute;
+    width: 270px;
+    height: 88px;
+    left: 44px;
+    top: 239px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainfwtbox1 {
+    /* Rectangle 61 */
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 44px;
+    top: 356px;
+    border-radius: 8px;
+
+    background: linear-gradient(90.00deg, rgb(15, 38, 80), rgba(15, 38, 80, 0.82) 100%);
+}
+
+.mainfwtbox2 {
+    /* Rectangle 61 */
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 124px;
+    top: 356px;
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+}
+
+.mainfwtbox3 {
+    /* Rectangle 61 */
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 204px;
+    top: 356px;
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+}
+
+.mainfwtbox1 i {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.mainfwtbox2 i {
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.mainfwtbox3 i {
+    margin-top: 25px;
+    margin-left: 11px;
+}
+
+.mainfwtt ul {
+    position: absolute;
+
+    left: 393px;
+    display: flex;
+    flex-direction: column;
+
+    top: 239px;
+    list-style: none;
+    gap: 10px;
+
+}
+
+.mainfwtt ul a {
+
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.mainfwtt1 ul {
+    position: absolute;
+
+    left: 662px;
+    display: flex;
+    flex-direction: column;
+
+    top: 239px;
+    list-style: none;
+    gap: 10px;
+
+}
+
+.mainfwtt1 ul a {
+
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.mainfwtt2 ul {
+    position: absolute;
+
+    left: 982px;
+    display: flex;
+    flex-direction: column;
+
+    top: 239px;
+    list-style: none;
+    gap: 10px;
+
+}
+
+.mainfwtt2 ul a {
+
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mainfwtt3 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    margin-left: 940px;
+    position: absolute;
+    top: 255px;
+}

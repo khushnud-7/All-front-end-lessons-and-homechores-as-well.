@@ -1,0 +1,11 @@
+[
+    {
+        "label": "something",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "something",
+        "description": "something",
+        "detail": "something",
+        "documentation": {}
+    }
+]

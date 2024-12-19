@@ -1,0 +1,2400 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.ultimate {
+  /* Homepage (desktop) */
+  position: relative;
+  width: 1263px;
+  height: 7026px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  background: rgb(43, 43, 43);
+  margin: 0 auto;
+}
+
+.navbar {
+  width: 1163px;
+  height: 100px;
+  position: absolute;
+  left: 3.8%;
+}
+.navbar .nav_left img {
+  /* nav / logo (Navigation) */
+  position: static;
+  width: 243.41px;
+  height: 32px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 30px 10px;
+}
+.navbar .nav_center ul {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  gap: 50px;
+  /* Button */
+  position: absolute;
+  height: 22px;
+  list-style: none;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: -54px 550px;
+}
+.navbar .nav_center ul a {
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: none;
+}
+.navbar .nav_right a {
+  /* Sign Up (Button) */
+  position: static;
+  width: 122px;
+  height: 50px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12;
+  padding: 0px 30px 0px 30px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: -70px 981px;
+  border-radius: 20px;
+  list-style: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  /* Call to Action */
+  background: rgb(162, 89, 255);
+}
+.navbar .nav_right a i {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 1015px;
+  top: 46px;
+}
+
+.mainbelow {
+  /* Hero Section Frame (Hero Section) */
+  position: static;
+  width: 1050px;
+  height: 544px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 180px 8.1%;
+}
+.mainbelow .mainbelow1 {
+  width: 50%;
+  height: 100%;
+}
+.mainbelow .mainbelow1 h6 {
+  /* Discover digital art & Collect NFTs (Hero S
+  position: static;
+  width: 510px;
+  height: 222px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 0px;
+  /* H1 - Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 67px;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbelow .mainbelow1 P {
+  /* NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists. (Hero Section) */
+  position: static;
+  width: 510px;
+  height: 105px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 20px 0px;
+  /* Body Text- Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbelow .mainbelow1 a {
+  /* Button */
+  position: static;
+  width: 94px;
+  height: 40px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12;
+  padding: 0px 50px 0px 50px;
+  list-style: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 30px 0px;
+  border-radius: 20px;
+  /* Call to Action */
+  background: rgb(162, 89, 255);
+}
+.mainbelow .mainbelow1 i {
+  position: absolute;
+  left: 140px;
+}
+.mainbelow .mainbelow2 {
+  width: 50%;
+  height: 100%;
+  background: url(image2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 98327409823743;
+}
+.mainbelow .mainbelow11 h6 {
+  /* 240k+ (Hero Section) */
+  position: static;
+  width: 150px;
+  height: 39px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  position: absolute;
+  top: 660px;
+  margin: 0px -38px;
+  /* H4 - Space Mono */
+  color: rgb(255, 255, 255);
+  font-family: Space Mono;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbelow .mainbelow11 h5 {
+  /* Total Sale (Hero Section) */
+  position: static;
+  width: 150px;
+  height: 38px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 98px 0px;
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 23.99px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbelow .mainbelow11 h4 {
+  /* 240k+ (Hero Section) */
+  position: static;
+  width: 150px;
+  height: 39px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  position: absolute;
+  top: 660px;
+  margin: 0px 110px;
+  /* H4 - Space Mono */
+  color: rgb(255, 255, 255);
+  font-family: Space Mono;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbelow .mainbelow11 h3 {
+  /* Total Sale (Hero Section) */
+  position: static;
+  width: 150px;
+  height: 38px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: -136px 146px;
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 23.99px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbelow .mainbelow11 h2 {
+  /* 240k+ (Hero Section) */
+  position: static;
+  width: 150px;
+  height: 39px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  position: absolute;
+  top: 660px;
+  margin: 0px 255px;
+  /* H4 - Space Mono */
+  color: rgb(255, 255, 255);
+  font-family: Space Mono;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbelow .mainbelow11 h1 {
+  /* Total Sale (Hero Section) */
+  position: static;
+  width: 150px;
+  height: 38px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 100px 294px;
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 23.99px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.mainbottom {
+  /* Hero Section Frame (Hero Section) */
+  width: 1050px;
+  height: 676px;
+  margin: 0px 8.1%;
+}
+.mainbottom .mainbottomt {
+  width: 100%;
+  height: 91px;
+}
+.mainbottom .mainbottomt h6 {
+  /* Trending Collection */
+  position: static;
+  width: 1046px;
+  height: 46px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 10px;
+  /* H3 - Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbottom .mainbottomt p {
+  /* Checkout our weekly updated trending collection. (Trending Collection) */
+  position: static;
+  width: 1046px;
+  height: 35px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 10px;
+  /* Body Text- Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbottom .mainbottomtext {
+  /* Collection Card Row (Trending Collection) */
+  position: static;
+  width: 1050px;
+  height: 525px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 60px 0px;
+}
+.mainbottom .mainbottomtext .mainbottomtext1 {
+  display: flex;
+  flex-direction: row;
+  width: 330px;
+  gap: 30px;
+  height: 445px;
+}
+.mainbottom .mainbottomtext .mainbottomtext1 img {
+  opacity: 23097402397403275000;
+}
+.mainbottom .mainbottomtext2 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.mainbottom .mainbottomtext2 h6 {
+  width: 330px;
+  height: 31px;
+  margin: -125px 0px;
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbottom .mainbottomtext3 {
+  display: flex;
+  flex-direction: row;
+  gap: 345px;
+}
+.mainbottom .mainbottomtext3 img {
+  /* Avatar Placeholder (Avatar #6) */
+  width: 24px;
+  height: 24px;
+  margin: -90px 0px;
+  border-radius: 100px;
+  opacity: 90327946238462100;
+  background: url(Keemun_fox_in_a_wardrobe_wearing_sunglasses_colorful_4k_artstat_f58642e8-2784-46e2-8ecd-c34701427dd9);
+}
+.mainbottom .mainbottomtext4 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.mainbottom .mainbottomtext4 p {
+  /* Artist Name (Artist Card) */
+  position: static;
+  width: 294px;
+  height: 22px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: -90px 27px;
+  /* Base(Body) - Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.mainunder {
+  width: 1050px;
+  height: 895px;
+  position: absolute;
+  left: 8.1%;
+  top: 1762px;
+}
+.mainunder .mainunder1 {
+  width: 100%;
+  height: 91px;
+}
+.mainunder .mainunder1 h6 {
+  /* Top creators (Top Rated Artists) */
+  position: static;
+  width: 703px;
+  height: 46px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 10px;
+  /* H3 - Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainunder .mainunder1 p {
+  /* Checkout Top Rated Creators on the NFT Marketplace (Top Rated Artists) */
+  position: static;
+  width: 703px;
+  height: 35px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 10px;
+  /* Body Text- Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainunder .mainunder1 a {
+  /* Button */
+  position: static;
+  width: 237px;
+  height: 50px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12;
+  padding: 0px 50px 0px 50px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: -45px 814px;
+  box-sizing: border-box;
+  /* Call to Action */
+  border: 2px solid rgb(162, 89, 255);
+  border-radius: 20px;
+  text-decoration: none;
+  list-style: none;
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.mainunder .mainunder1 a i {
+  position: absolute;
+  left: 850px;
+}
+.mainunder .mainunder2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.mainunder .mainunder2 div {
+  /* Artist Card */
+  position: static;
+  width: 240px;
+  height: 218px;
+  margin: 95px 0px;
+  border-radius: 20px;
+  background: rgb(59, 59, 59);
+}
+.mainunder .mainunder2 div img {
+  /* Avatar Placeholder (Avatar #1) */
+  display: flex;
+  width: 120px;
+  height: 120px;
+  margin-left: 60px;
+  margin-top: 20px;
+  border-radius: 100px;
+  background: url(Keemun_woman_with_glasses_avatar_2d_illustration_8718be52-2a66-456f-b903-1252a30dcd68);
+}
+.mainunder .mainunder2 div h6 {
+  /* Dish Studio (Artist Card) */
+  position: static;
+  width: 200px;
+  height: 31px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 20px 23px;
+  /* H5 - Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.mainunder .mainunder2 div h5 {
+  /* Total Sales: (Artist Card) */
+  position: static;
+  width: 95px;
+  height: 22px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: -20px 10px;
+  /* Base(Body) - Work Sans */
+  color: rgb(133, 133, 132);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.mainunder .mainunder2 div p {
+  /* 34.53 ETH (Artist Card) */
+  position: static;
+  width: 95px;
+  height: 22px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: -10px 95px;
+  /* Base (Body) - Space Mono */
+  color: rgb(255, 255, 255);
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.mainunder .mainunder3 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.mainunder .mainunder3 div {
+  /* Artist Card */
+  position: static;
+  width: 240px;
+  height: 218px;
+  margin: -70px 0px;
+  border-radius: 20px;
+  background: rgb(59, 59, 59);
+}
+.mainunder .mainunder3 div img {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  margin-left: 60px;
+  margin-top: 20px;
+  border-radius: 100px;
+  background: url(Keemun_woman_with_glasses_avatar_2d_illustration_8718be52-2a66-456f-b903-1252a30dcd68);
+}
+.mainunder .mainunder3 div h6 {
+  /* Dish Studio (Artist Card) */
+  position: static;
+  width: 200px;
+  height: 31px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 20px 23px;
+  /* H5 - Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.mainunder .mainunder3 div h5 {
+  /* Total Sales: (Artist Card) */
+  position: static;
+  width: 95px;
+  height: 22px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: -20px 10px;
+  /* Base(Body) - Work Sans */
+  color: rgb(133, 133, 132);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.mainunder .mainunder3 div p {
+  /* 34.53 ETH (Artist Card) */
+  position: static;
+  width: 95px;
+  height: 22px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: -10px 95px;
+  /* Base (Body) - Space Mono */
+  color: rgb(255, 255, 255);
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.mainunder .mainunder4 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.mainunder .mainunder4 div {
+  /* Artist Card */
+  position: static;
+  width: 240px;
+  height: 218px;
+  margin: 100px 0px;
+  border-radius: 20px;
+  background: rgb(59, 59, 59);
+}
+.mainunder .mainunder4 div img {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  margin-left: 60px;
+  margin-top: 20px;
+  border-radius: 100px;
+  background: url(Keemun_woman_with_glasses_avatar_2d_illustration_8718be52-2a66-456f-b903-1252a30dcd68);
+}
+.mainunder .mainunder4 div h6 {
+  /* Dish Studio (Artist Card) */
+  position: static;
+  width: 200px;
+  height: 31px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 20px 23px;
+  /* H5 - Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.mainunder .mainunder4 div h5 {
+  /* Total Sales: (Artist Card) */
+  position: static;
+  width: 95px;
+  height: 22px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: -20px 10px;
+  /* Base(Body) - Work Sans */
+  color: rgb(133, 133, 132);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.mainunder .mainunder4 div p {
+  /* 34.53 ETH (Artist Card) */
+  position: static;
+  width: 95px;
+  height: 22px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: -10px 95px;
+  /* Base (Body) - Space Mono */
+  color: rgb(255, 255, 255);
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.mainunder13 {
+  display: flex;
+  flex-direction: row;
+}
+.mainunder13 div {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  margin: 380px 120px;
+  z-index: 2;
+  /* Base (Body) - Space Mono */
+  color: rgb(133, 133, 132);
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  /* Background */
+  background: rgb(43, 43, 43);
+}
+.mainunder13 div p {
+  /* 1 (Artist Card) */
+  position: static;
+  width: 10px;
+  height: 22px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: undefined;
+  flex-grow: 0;
+  margin: 3px 11px;
+  /* Base (Body) - Space Mono */
+  color: rgb(133, 133, 132);
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.mainunder14 {
+  display: flex;
+  flex-direction: row;
+}
+.mainunder14 div {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  margin: -165px 120px;
+  z-index: 2;
+  /* Base (Body) - Space Mono */
+  color: rgb(133, 133, 132);
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  /* Background */
+  background: rgb(43, 43, 43);
+}
+.mainunder14 div p {
+  /* 1 (Artist Card) */
+  position: static;
+  width: 10px;
+  height: 22px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: undefined;
+  flex-grow: 0;
+  margin: 3px 11px;
+  /* Base (Body) - Space Mono */
+  color: rgb(133, 133, 132);
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.mainunder15 {
+  display: flex;
+  flex-direction: row;
+}
+.mainunder15 div {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  margin: 85px 120px;
+  z-index: 2;
+  /* Base (Body) - Space Mono */
+  color: rgb(133, 133, 132);
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  /* Background */
+  background: rgb(43, 43, 43);
+}
+.mainunder15 div p {
+  /* 1 (Artist Card) */
+  position: static;
+  width: 10px;
+  height: 22px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: undefined;
+  flex-grow: 0;
+  margin: 3px 11px;
+  /* Base (Body) - Space Mono */
+  color: rgb(133, 133, 132);
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.mainpose {
+  width: 1050px;
+  height: 744.7px;
+  margin: 290px 8.1%;
+}
+.mainpose .mainposet {
+  width: 100%;
+  height: 10%;
+  margin: -10px 0px;
+}
+.mainpose .mainposet p {
+  /* Browse Categories */
+  position: static;
+  width: 1050px;
+  height: 46px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  margin: 10px 0px;
+  /* H3 - Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainpose .mainposeimg {
+  width: 100%;
+  height: 83.3%;
+  margin: 60px 0px;
+}
+.mainpose .mainposeimg .mainpose1 {
+  width: 100%;
+  height: 325px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.mainpose .mainposeimg .mainpose1 div img {
+  /* Category Card */
+  position: static;
+  width: 240px;
+  height: 295px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  opacity: 973624723932;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 0px;
+  border-radius: 20px;
+  background: rgb(59, 59, 59);
+}
+.mainpose .mainposeimg .mainpose2 {
+  width: 100%;
+  height: 295px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: -30px 0px;
+}
+.mainpose .mainposeimg .mainpose2 div img {
+  /* Category Card */
+  position: static;
+  width: 240px;
+  height: 295px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  opacity: 973624723932;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 30px 0px;
+  border-radius: 20px;
+  background: rgb(59, 59, 59);
+}
+
+.mainthe {
+  width: 1050px;
+  height: 661px;
+  margin: 10px 8.1%;
+}
+.mainthe h6 {
+  /* Discover More NFTs (Discover more NFTs) */
+  position: static;
+  width: 763px;
+  height: 46px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 10px 0px;
+  /* H3 - Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainthe h5 {
+  /* Explore new trending NFTs (Discover more NFTs) */
+  position: static;
+  width: 763px;
+  height: 35px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 10px 0px;
+  /* Body Text- Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainthe a {
+  /* Button */
+  position: static;
+  width: 187px;
+  height: 60px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12;
+  padding: 0px 50px 0px 50px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: -80px 862px;
+  box-sizing: border-box;
+  /* Call to Action */
+  border: 2px solid rgb(162, 89, 255);
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+}
+.mainthe i {
+  position: absolute;
+  left: 1000px;
+}
+.mainthe .mainthe1 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.mainthe .mainthe1 div img {
+  /* NFT Card */
+  position: static;
+  width: 330px;
+  height: 459px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  opacity: 99999999999;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 191px 0px;
+}
+
+.mainimg {
+  width: 1263px;
+  height: 650px;
+  margin: 120px 0px;
+}
+.mainimg img {
+  width: 100%;
+  height: 100%;
+  opacity: 999999999;
+}
+.mainimg .mainimg1 {
+  position: absolute;
+  z-index: 20;
+  top: 5040px;
+  width: 1050px;
+  height: 220px;
+  left: 8.1%;
+}
+.mainimg .mainimg1 button {
+  /* Artist Card */
+  position: static;
+  width: 151px;
+  height: 44px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12;
+  padding: 10px 20px 10px 20px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  border-radius: 20px;
+  border: none;
+  background: rgb(59, 59, 59);
+}
+.mainimg .mainimg1 button img {
+  /* Avatar Placeholder (Avatar #7) */
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 20px;
+  top: 5px;
+}
+.mainimg .mainimg1 button p {
+  /* Dish Studio (Artist Card) */
+  position: static;
+  height: 22px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12;
+  padding: 0px 26px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 12px;
+  /* Base(Body) - Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.mainimg .mainimg1 p {
+  /* Magic Mashrooms (NFT Highlight) */
+  position: static;
+  width: 755px;
+  height: 56px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 30px 0px;
+  /* H2 - Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 51px;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainimg .mainimg1 a {
+  /* Button */
+  position: static;
+  width: 108px;
+  height: 10px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12;
+  padding: 22px 50px 22px 50px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 30px 0px;
+  border-radius: 20px;
+  /* Text */
+  background: rgb(255, 255, 255);
+  color: rgb(43, 43, 43);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+}
+.mainimg .mainimg1 a i {
+  position: absolute;
+  left: 45px;
+}
+.mainimg .mainimg1 .mainimg2 {
+  background: url(34.png);
+  width: 295px;
+  height: 144px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: -168px 755px;
+}
+
+.mainimg22 {
+  position: absolute;
+  top: 4700px;
+  left: 0px;
+  width: 1263px;
+  height: 650px;
+  background: linear-gradient(180deg, rgba(162, 89, 255, 0), rgb(162, 89, 255) 100%);
+}
+
+.mainbizarre {
+  width: 1050px;
+  height: 567px;
+  margin: 0px 8.1%;
+}
+.mainbizarre .mainbizarre1 {
+  width: 100%;
+  height: 14%;
+}
+.mainbizarre .mainbizarre1 h6 {
+  /* How it works */
+  position: static;
+  width: 1050px;
+  height: 46px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* H3 - Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbizarre .mainbizarre1 p {
+  /* Find out how to get started (How it works) */
+  position: static;
+  width: 1050px;
+  height: 35px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 10px 0px;
+  /* Body Text- Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbizarre .mainbizarre2 {
+  /* Card Row (How it works) */
+  position: static;
+  width: 1050px;
+  height: 439px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 48px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.mainbizarre .mainbizarre2 div {
+  /* Info Card */
+  position: static;
+  width: 330px;
+  height: 440px;
+  margin: 0px 0px;
+  border-radius: 20px;
+  background: rgb(59, 59, 59);
+}
+.mainbizarre .mainbizarre2 div img {
+  /* Icon (Setup Wallet Icon ) */
+  position: static;
+  width: 250px;
+  height: 250px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 40px;
+  opacity: 999999999999;
+}
+.mainbizarre .mainbizarre2 div p {
+  /* Setup Your wallet (Info Card) */
+  position: static;
+  width: 270px;
+  height: 31px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 10px 35px;
+  /* H5 - Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.mainbizarre .mainbizarre2 div h6 {
+  /* Set up your wallet of choice. Connect it to the NFT market by clicking the wallet icon in the top right corner. (Info Card) */
+  position: static;
+  width: 260px;
+  height: 88px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 20px 42px;
+  /* Base(Body) - Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.mainalmost {
+  width: 1050px;
+  height: 430px;
+  margin: 80px 8.1%;
+  border-radius: 20px;
+  background: rgb(59, 59, 59);
+}
+.mainalmost img {
+  /* Photo (Subscribe widget) */
+  position: static;
+  width: 425px;
+  height: 310px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 5.2% 60px;
+}
+.mainalmost h6 {
+  /* Join our weekly digest (Subscribe widget) */
+  position: static;
+  width: 415px;
+  height: 92px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: -351px 565px;
+  /* H3 - Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainalmost p {
+  /* Get exclusive promotions & updates straight to your inbox. (Subscribe widget) */
+  position: static;
+  width: 425px;
+  height: 70px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 362px 566px;
+  /* Body Text- Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainalmost input {
+  /* Subscribe Form */
+  position: absolute;
+  width: 405px;
+  height: 60px;
+  top: 6410px;
+  padding-left: 30px;
+  left: 668px;
+  border: none;
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+}
+.mainalmost a {
+  /* Button */
+  position: absolute;
+  width: 141px;
+  height: 60px;
+  padding: 0px 50px 0px 50px;
+  margin: -310px 760px;
+  z-index: 33;
+  border-radius: 20px;
+  background: rgb(162, 89, 255);
+  list-style: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.mainalmost a i {
+  margin: 22px 10px;
+}
+
+.mainfinall {
+  /* Footer */
+  position: static;
+  width: 1263px;
+  height: 334px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 9;
+  flex-grow: 1;
+  margin: 0px 0px;
+  /* Background - Secondary */
+  background: rgb(59, 59, 59);
+}
+.mainfinall .mainfinalll {
+  /* Footer Info (Footer) */
+  position: static;
+  width: 1050px;
+  height: 221px;
+  margin: 30px 8.1%;
+}
+.mainfinall .mainfinalll .mainfinal1 img {
+  position: static;
+  width: 243.41px;
+  height: 32px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 30px -3px;
+}
+.mainfinall .mainfinalll .mainfinal1 h6 {
+  /* NFT marketplace UI created with Anima for Figma. (Footer) */
+  position: static;
+  width: 238px;
+  height: 44px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 20px 0px;
+  /* Base(Body) - Work Sans */
+  color: rgb(204, 204, 204);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.mainfinall .mainfinalll .mainfinal1 p {
+  /* Join our community (Footer) */
+  position: static;
+  width: 238px;
+  height: 18px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 15px 0px;
+  /* Base(Body) - Work Sans */
+  color: rgb(204, 204, 204);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.mainfinall .mainfinalll .mainfinal1 .mainfinal111 {
+  display: flex;
+  flex-direction: co;
+}
+.mainfinall .mainfinalll .mainfinal1 .mainfinal111 div {
+  margin: 40px 0px;
+  display: flex;
+  gap: 6px;
+}
+.mainfinall .mainfinall2 {
+  /* Divider (Footer) */
+  position: static;
+  width: 1050px;
+  height: 0;
+  margin: 30px 8.1%;
+  /* Caption & Label Text */
+  border: 1px solid rgb(133, 133, 132);
+}
+
+.mainfinall1 p {
+  /* Caption - Work Sans */
+  color: rgb(204, 204, 204);
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: 0%;
+  margin: 0px 100px;
+  text-align: left;
+}
+
+.mainfinal2 ul {
+  /* Explore (Footer) */
+  position: static;
+  width: 95px;
+  height: 35px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 25;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: -245px 385px;
+  list-style: none;
+}
+.mainfinal2 ul a {
+  /* H5 - Space Mono */
+  color: rgb(255, 255, 255);
+  font-family: Space Mono;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.mainfinal2 ol {
+  /* Marketplace (Footer) */
+  position: static;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 276px 385px;
+  list-style: none;
+}
+.mainfinal2 ol a {
+  /* Base(Body) - Work Sans */
+  /* Base(Body) - Work Sans */
+  color: rgb(204, 204, 204);
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.mainfinal3 h6 {
+  /* Join our weekly digest (Footer) */
+  position: static;
+  width: 297px;
+  height: 35px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 25;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: -450px 650px;
+  /* H5 - Space Mono */
+  color: rgb(255, 255, 255);
+  font-family: "Space Mono", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainfinal3 p {
+  /* Get exclusive promotions & updates straight to your inbox. (Footer) */
+  position: static;
+  width: 330px;
+  height: 44px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 480px 654px;
+  /* Base(Body) - Work Sans */
+  color: rgb(204, 204, 204);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.mainfinal3 input {
+  /* Subscribe Form */
+  position: static;
+  width: 335px;
+  height: 60px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12;
+  border: none;
+  padding-left: 30px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: -450px 655px;
+  border-radius: 20px;
+  /* Text */
+  background: rgb(255, 255, 255);
+}
+.mainfinal3 a {
+  /* Button */
+  position: static;
+  width: 129px;
+  height: 60px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12;
+  padding-right: 50px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 390px 842px;
+  border-radius: 20px;
+  /* Call to Action */
+  background: rgb(162, 89, 255);
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .ultimate {
+    /* Homepage (desktop) */
+    position: relative;
+    width: 1263px;
+    height: 7026px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    background: rgb(43, 43, 43);
+    margin: 0 auto;
+  }
+  .navbar {
+    width: 633px;
+    height: 100px;
+    position: absolute;
+    left: 3.8%;
+  }
+  .navbar .nav_left img {
+    /* nav / logo (Navigation) */
+    position: static;
+    width: 243.41px;
+    height: 32px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 30px 10px;
+  }
+  .navbar .nav_center ul {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    gap: 50px;
+    /* Button */
+    position: absolute;
+    height: 22px;
+    list-style: none;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -54px 550px;
+  }
+  .navbar .nav_center ul a {
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+  }
+  .navbar .nav_right a {
+    /* Sign Up (Button) */
+    position: static;
+    width: 122px;
+    height: 50px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12;
+    padding: 0px 30px 0px 30px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: -70px 431px;
+    border-radius: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    /* Call to Action */
+    background: rgb(162, 89, 255);
+  }
+  .navbar .nav_right a i {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 1015px;
+    top: 46px;
+  }
+}
+.mainbelow {
+  /* Hero Section Frame (Hero Section) */
+  position: static;
+  width: 1050px;
+  height: 544px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 180px 8.1%;
+}
+.mainbelow .mainbelow1 {
+  width: 50%;
+  height: 100%;
+}
+.mainbelow .mainbelow1 h6 {
+  /* Discover digital art & Collect NFTs (Hero S
+  position: static;
+  width: 510px;
+  height: 222px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 0px;
+  /* H1 - Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 67px;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbelow .mainbelow1 P {
+  /* NFT marketplace UI created with Anima for Figma. Collect, buy and sell art 
+  position: static;
+  width: 510px;
+  height: 105px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 20px 0px;
+  /* Body Text- Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbelow .mainbelow1 a {
+  /* Button */
+  position: static;
+  width: 94px;
+  height: 40px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12;
+  padding: 0px 50px 0px 50px;
+  list-style: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 30px 0px;
+  border-radius: 20px;
+  /* Call to Action */
+  background: rgb(162, 89, 255);
+}
+.mainbelow .mainbelow1 i {
+  position: absolute;
+  left: 140px;
+}
+.mainbelow .mainbelow2 {
+  width: 50%;
+  height: 100%;
+  background: url(image2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 98327409823743;
+}
+.mainbelow .mainbelow11 h6 {
+  /* 240k+ (Hero Section) */
+  position: static;
+  width: 150px;
+  height: 39px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  position: absolute;
+  top: 660px;
+  margin: 0px -38px;
+  /* H4 - Space Mono */
+  color: rgb(255, 255, 255);
+  font-family: Space Mono;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbelow .mainbelow11 h5 {
+  /* Total Sale (Hero Section) */
+  position: static;
+  width: 150px;
+  height: 38px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 98px 0px;
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 23.99px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbelow .mainbelow11 h4 {
+  /* 240k+ (Hero Section) */
+  position: static;
+  width: 150px;
+  height: 39px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  position: absolute;
+  top: 660px;
+  margin: 0px 110px;
+  /* H4 - Space Mono */
+  color: rgb(255, 255, 255);
+  font-family: Space Mono;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbelow .mainbelow11 h3 {
+  /* Total Sale (Hero Section) */
+  position: static;
+  width: 150px;
+  height: 38px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: -136px 146px;
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 23.99px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbelow .mainbelow11 h2 {
+  /* 240k+ (Hero Section) */
+  position: static;
+  width: 150px;
+  height: 39px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  position: absolute;
+  top: 660px;
+  margin: 0px 255px;
+  /* H4 - Space Mono */
+  color: rgb(255, 255, 255);
+  font-family: Space Mono;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.mainbelow .mainbelow11 h1 {
+  /* Total Sale (Hero Section) */
+  position: static;
+  width: 150px;
+  height: 38px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 100px 294px;
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-size: 23.99px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}/*# sourceMappingURL=style.css.map */
